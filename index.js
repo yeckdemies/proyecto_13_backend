@@ -26,12 +26,12 @@ app.use(cors());
 app.use(express.json());
 
 app.use('/api/v1/users', userRouters);
-app.use('/api/proveedores', proveedorRoutes);
-app.use('/api/conductores', conductorRoutes);
-app.use('/api/vehiculos', vehiculoRoutes);
-app.use('/api/metodos-pago', metodoPagoRoutes);
-app.use('/api/sanciones', sancionRoutes);
-app.use('/api/mantenimientos', mantenimientoRoutes);
+app.use('/api/v1/proveedores', proveedorRoutes);
+app.use('/api/v1/conductores', conductorRoutes);
+app.use('/api/v1/vehiculos', vehiculoRoutes);
+app.use('/api/v1/metodos-pago', metodoPagoRoutes);
+app.use('/api/v1/sanciones', sancionRoutes);
+app.use('/api/v1/mantenimientos', mantenimientoRoutes);
 
 app.use('*', (req, res, next) => {
   return res.status(404).json('Route Not Found');
