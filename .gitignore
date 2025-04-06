@@ -1,1 +1,29 @@
+# Node modules
 node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+
+# Build 
+build/
+dist/
+
+# IDE/editor config
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
