@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const vehiculoSchema = new mongoose.Schema({
   tipoVehiculo: {
     type: String,
-    enum: ['turismo', 'suv', 'furgoneta'],
+    enum: ['Turismo', 'SUV', 'Furgoneta'],
     required: true
   },
   matricula: {
@@ -14,31 +14,47 @@ const vehiculoSchema = new mongoose.Schema({
   bastidor: String,
   propiedad: {
     type: String,
-    enum: ['renting', 'propio'],
+    enum: ['Renting', 'Propio'],
     required: true
   },
   estado: {
     type: String,
-    enum: ['activo', 'inactivo', 'taller'],
-    default: 'Activo'
+    enum: ['Activo', 'Inactivo', 'Taller'],
+    default: 'Activo',
+    required: true
   },
   tipoCombustible: {
     type: String,
-    enum: ['diesel', 'gasolina', 'diesel + adv', 'eléctrico', 'gas'],
+    enum: ['Diesel', 'Gasolina', 'Diesel + ADV', 'Eléctrico', 'Gas'],
     required: true
   },
   permisoCirculacionUrl: String,
-  ciudad: String,
+  ciudad: {
+    type: String,
+    required: true
+  },
   pais: {
     type: String,
     enum: ['España', 'Alemania', 'Italia', 'Francia', 'Marruecos', 'Mexico', 'EEUU'],
     required: true
   },
-  marca: String,
-  modelo: String,
-  año: Number,
+  marca: {
+    type: String,
+    required: true
+  },
+  modelo: {
+    type: String,
+    required: true
+  },
+  anio: {
+    type: Number,
+    required: true
+  },
   color: String,
-  fechaVigorItv: Date,
+  fechaVigorItv: {
+    type: Date,
+    required: true
+  },
   costeAlquilerMensual: Number,
   fechaInicioContratoRenting: Date,
   fechaFinContratoRenting: Date,
@@ -49,20 +65,15 @@ const vehiculoSchema = new mongoose.Schema({
   },
   conductor: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'Conductor',
-    unique: true
+    ref: 'Conductor'
   },
   tipoRenting: {
     type: String,
-    enum: ['fijo', 'variable']
+    enum: ['Fijo', 'Variable']
   },
   telemetria: {
     type: Boolean,
     default: false
-  },
-  coordenadas: {
-    lat: Number,
-    lng: Number
   }
 }, {
   collection: 'vehiculos',

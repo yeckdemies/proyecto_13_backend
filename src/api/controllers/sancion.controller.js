@@ -2,7 +2,7 @@ const Sancion = require('../models/sancion.model');
 const Vehiculo = require('../models/vehicle.model');
 const Conductor = require('../models/conductor.model');
 
-const getAllSanciones = async (req, res) => {
+const getAllSanciones = async (req, res, next) => {
   try {
     const sanciones = await Sancion.find()
       .populate('vehiculo')
@@ -13,7 +13,7 @@ const getAllSanciones = async (req, res) => {
   }
 };
 
-const getSancionById = async (req, res) => {
+const getSancionById = async (req, res, next) => {
   try {
     const sancion = await Sancion.findById(req.params.id)
       .populate('vehiculo')
@@ -27,7 +27,7 @@ const getSancionById = async (req, res) => {
   }
 };
 
-const createSancion = async (req, res) => {
+const createSancion = async (req, res, next) => {
   try {
     const { vehiculo, conductor, ...resto } = req.body;
     const vehiculoObj = await Vehiculo.findById(vehiculo);
@@ -50,7 +50,7 @@ const createSancion = async (req, res) => {
   }
 };
 
-const updateSancion = async (req, res) => {
+const updateSancion = async (req, res, next) => {
   try {
     const updated = await Sancion.findByIdAndUpdate(req.params.id, req.body, { new: true });
     if (!updated) {
@@ -62,7 +62,7 @@ const updateSancion = async (req, res) => {
   }
 };
 
-const deleteSancion = async (req, res) => {
+const deleteSancion = async (req, res, next) => {
   try {
     const deleted = await Sancion.findByIdAndDelete(req.params.id);
     if (!deleted) {

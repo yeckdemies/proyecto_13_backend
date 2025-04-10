@@ -99,3 +99,204 @@ Custodio Ambrosio Esteban Suarez,gimenezmorena@cortina-escamilla.com,custodio.am
 Jose Francisco Hierro Mateu,ainaraballesteros@hotmail.com,jose.francisco.hierro.mateu@empresa.com,inactivo,+34714 72 33 44,"AM, B1",Tarjeta Débito Verde oliva oscuro,ES6661051496,True,2027-09-28,80686288Y,1994-08-23,2024-02-20,,Callejón Josué Iñiguez 4 Puerta 9 ,Ávila,Melilla,España,95613,EMP4408,"Goñi, Gutierrez and Cadenas",+34703801693,+34 876 91 23 77,Voluptas dolorum voluptas mollitia a quod soluta cum.
 Antonio Pol Garrido,geraldo00@coronado.es,antonio.pol.garrido@empresa.com,activo,+34 831336314,"B, D1",Tarjeta Débito Rosa brumoso,ES0982127023,True,2028-05-04,89672012N,1982-12-02,2015-07-27,2025-03-19,Pasaje Amalia Montero 19,Tarragona,Álava,España,91765,EMP3244,"Gómez, Jimenez and Gil",+34971515474,+34719 117 087,Consequatur consequuntur voluptas.
 Telmo Iñiguez Baeza,galavizcaino@franch.com,telmo.iñiguez.baeza@empresa.com,baja,+34 713216005,"C1, C",Tarjeta Crédito Gris gainsboro (Estaño),ES9324183252,True,2033-12-06,62520213H,1965-12-23,2022-09-09,,Cañada de Fito Ángel 72 Piso 0 ,Valencia,Valladolid,España,67811,EMP6786,"Cerdá, Aguilar and Escobar",+34 721 53 86 42,+34717 302 209,Error laboriosam rem velit dignissimos sequi eligendi.
+nombre,correoElectronicoPersonal,correoElectronicoEmpresa,estado,telefono,tiposCarne,metodoPago,numeroPermisoConducir,permisoPermanente,fechaExpiracionPermiso,dni,fechaNacimiento,fechaIngreso,fechaBaja,direccion,ciudad,provincia,pais,codigoPostal,codigoEmpleado,empresa,telefonoPersonal,telefonoEmpresa,comentarios
+Octavia Ramirez Sedano,cborrego@godoy.net,rosario80@martinez-tolosa.com,activo,+34 726 364 739,"C1,C,B1",MP-91945,75215957U,True,2027-06-16,09786267D,1978-12-10,2021-10-25,,"C. Paz Cañas 51
+Barcelona, 39952",Segovia,Las Palmas,España,59839,EMP26392,"Cervera, Gargallo and Anglada",+34 851 320 503,+34701 157 425,Tempora occaecati asperiores cum minus.
+Augusto Landa Leal,poloazucena@gmail.com,barcolalo@guzman.es,baja,+34 737623198,"D1E,BE,DE",MP-66514,40022512L,False,2034-06-17,42354750P,1983-01-23,2020-10-27,,"Avenida de Victoriano Izaguirre 4 Apt. 62 
+Huelva, 37065",León,Huesca,España,27630,EMP88854,Huertas Group,+34 743 173 845,+34700943065,Corrupti sit nulla dicta vitae illo.
+Celestino Tello Ruiz,novoaluis@belda.net,fustersosimo@villa.net,inactivo,+34 882 054 304,C1E,MP-2943,79217715S,False,2030-05-08,24350877B,1982-10-23,2023-06-16,,"Cuesta de Flavia Puga 899 Puerta 3 
+Ceuta, 22065",La Rioja,León,España,52494,EMP35908,Padilla PLC,+34715385516,+34 723 113 967,Expedita molestiae impedit perspiciatis nam.
+Borja Calvet Acuña,uriartemaria-jose@vizcaino.es,amarilis80@palma.es,inactivo,+34 711844182,"BE,C",MP-94238,19080069T,False,2031-11-25,10394939W,1964-12-06,2020-01-10,,"Rambla de Eusebia Larrea 96 Apt. 92 
+Valladolid, 41271",Granada,Sevilla,España,86025,EMP05079,Gálvez LLC,+34701 43 42 90,+34712760600,Quod quidem eaque saepe.
+Nélida Montero,juan-pablo81@pineiro.es,inocencio09@cases.com,inactivo,+34 704 98 68 49,A1,MP-78359,79179500L,False,2028-10-12,43641072B,1992-04-30,2019-11-17,,"Urbanización de Martina Fiol 45 Apt. 63 
+León, 48333",Salamanca,La Coruña,España,07392,EMP97006,"Pastor, Puerta and Sanmiguel",+34 981 89 54 07,+34933 19 57 22,Nostrum libero nostrum qui illum.
+Charo de Cortés,hortega@yahoo.com,martinmaria-cristina@ramis.com,inactivo,+34 721 492 556,"B,A",MP-85257,40964355E,False,2031-04-21,21170972Y,1975-04-26,2024-07-21,,"Ronda Jorge Guitart 3 Puerta 7 
+Madrid, 71833",Córdoba,Cádiz,España,03789,EMP32663,Agudo Inc,+34 852 703 301,+34 738038872,Sunt alias quidem reprehenderit inventore esse.
+Valero Céspedes Francisco,martirio58@hotmail.com,loidatejada@carrillo.es,baja,+34 717 05 96 62,A2,MP-84148,17411912G,True,2027-08-26,22597341T,1966-01-21,2018-01-09,,"Via de Nuria Nebot 925
+Lleida, 56879",Guipúzcoa,Salamanca,España,22369,EMP08615,Amores-Higueras,+34727115701,+34 906 183 701,Occaecati quidem libero quas.
+Pelayo Parra Berrocal,quevedoamada@mugica-elias.com,ismael17@pedrero.com,inactivo,+34709293004,"C,CE,A1",MP-7194,81906553I,False,2030-06-03,49044360V,1983-03-17,2023-07-19,,"Paseo de Constanza Pedraza 33 Apt. 94 
+Ourense, 99288",Ciudad,Burgos,España,79821,EMP27776,"Mate, Capdevila and Villalobos",+34602975500,+34 803 170 394,Dolorem facere quaerat aspernatur.
+Cintia Catalá Campillo,flavia90@garces-isern.net,xlanda@montes-cabrera.org,activo,+34 825 52 84 34,"C1E,D",MP-83134,42924641O,False,2029-04-12,64297300U,1962-03-13,2020-12-09,,"Cuesta Iker Alsina 4
+Salamanca, 40604",Huelva,Salamanca,España,17315,EMP46530,"Ugarte, Cuadrado and Benitez",+34645 92 25 15,+34 729 465 797,Dolores qui qui consectetur doloribus.
+Jacobo Cortés Esteban,emilia66@conde.net,mllobet@pinilla.es,baja,+34679424266,"C1E,C",MP-27109,17362662Z,False,2026-08-11,35231567E,1989-02-12,2020-09-23,,"Cuesta Domingo Conde 4
+Madrid, 25406",Burgos,Las Palmas,España,53520,EMP53687,"Sales, Ortega and Márquez",+34730 004 772,+34 901730536,Aliquid inventore laudantium earum.
+Delfina Flor Pol,sbaez@gmail.com,ebilbao@olive.org,baja,+34 938 231 889,A2,MP-64778,94009309B,True,2031-11-08,49046495P,1960-02-22,2021-03-01,,"Cañada de Alejo Pardo 22 Apt. 36 
+Jaén, 01074",Albacete,Ceuta,España,70203,EMP83711,Franch-Alonso,+34829574569,+34618256071,Sequi provident nostrum necessitatibus.
+Rosario Ros Anaya,molinalazaro@villalonga-camara.es,candelariavina@almansa.com,activo,+34 678858336,"D1E,C1E,C",MP-39358,89036554Z,True,2026-06-14,02522535U,1996-03-07,2019-07-05,,"Alameda Gabino Pallarès 51
+Ávila, 85795",Huesca,Toledo,España,03371,EMP80185,"Santiago, Costa and Vargas",+34 700 80 22 28,+34 709 510 582,Dolorem ipsa nihil.
+Tomás Sanabria Castilla,chema56@yahoo.com,izaguirrevirgilio@fernandez-elorza.es,activo,+34 706075109,"A2,DE",MP-8078,10493456L,False,2034-11-24,49095566E,1990-08-29,2020-09-25,,"Rambla Cebrián Solera 67 Puerta 3 
+Lugo, 27776",Girona,Huesca,España,79853,EMP70520,"Durán, Oliver and Suarez",+34 709 79 46 50,+34 707422298,Saepe nemo itaque.
+Humberto Cortés Giner,catalina54@rosales.es,amorelisa@campo-araujo.org,inactivo,+34 712 62 85 83,"A,B1,D",MP-7194,78023796L,False,2032-07-28,62704927N,1998-02-27,2017-07-18,,"Cuesta de Eloy Garcia 229
+Ourense, 53422",Santa Cruz de Tenerife,Melilla,España,42333,EMP50522,"Albero, Serra and Blazquez",+34 682 423 635,+34667 748 733,Quod maiores nostrum ipsa accusantium nam.
+Jordán del Gomez,sparedes@hotmail.com,felipa45@guzman-rojas.es,inactivo,+34 974 67 57 47,"BE,AM",MP-30717,92178114J,False,2032-07-14,68456671O,1964-05-20,2017-12-14,2025-04-13,"Via Jose Manuel España 87
+Pontevedra, 97133",Badajoz,Segovia,España,00272,EMP61509,Rico and Sons,+34 703 293 834,+34958609884,Maiores sint quas esse.
+Victor Evaristo Ríos Verdú,florindaprats@gmail.com,zbadia@espana-alcazar.com,baja,+34 925327100,"B1,CE",MP-50459,94066937O,True,2032-05-18,25013690V,1996-12-12,2017-12-02,,"Plaza Armando Bellido 6
+Almería, 95035",Granada,Vizcaya,España,83714,EMP82868,"Vara, Castro and Salas",+34 700 889 861,+34735 64 99 56,Quasi harum et.
+Isaura Tomás Gomez,benitobarbero@quero.com,tbilbao@boada-salmeron.es,activo,+34828 56 67 14,A1,MP-55197,88786246F,True,2029-12-15,86684972X,1974-12-23,2019-04-04,,"Calle de Virgilio Berenguer 88 Puerta 6 
+Granada, 74493",Baleares,Soria,España,05111,EMP73868,Bartolomé-Coca,+34695189061,+34 642244418,Iure eligendi commodi atque magni soluta.
+Amancio Ojeda Arce,lsalas@rosales.es,benavideslola@lorenzo.es,inactivo,+34 628 414 466,A1,MP-22383,74012915V,True,2026-10-27,24416569E,1976-07-15,2022-08-04,2026-03-16,"Rambla de Marcelo Llorens 771 Puerta 0 
+Barcelona, 61718",Lugo,Burgos,España,00466,EMP51266,Ferrán-Hoz,+34633 38 38 82,+34712 49 76 33,Doloribus accusamus a doloribus iusto ex.
+Arturo Coloma,yesicaduarte@yahoo.com,qpeiro@solsona.net,activo,+34611 52 23 81,B,MP-67226,32366774P,False,2030-09-03,60441091U,1965-01-21,2023-08-06,,"Glorieta de Gil Gascón 96 Piso 4 
+Huelva, 71580",Madrid,Santa Cruz de Tenerife,España,75001,EMP67230,Castellanos-Araujo,+34971 96 75 33,+34 859 384 229,Velit occaecati expedita repellat.
+Andrés Iñiguez-Navarro,narvaezlorenza@llabres-penalver.es,mamen42@salinas-catala.com,inactivo,+34963 251 809,"B,C1",MP-48515,18958640T,False,2027-11-13,13832928G,1962-10-18,2025-03-31,,"Pasaje Lucila Pina 16
+Melilla, 76436",Toledo,Cádiz,España,69803,EMP85465,Iñiguez PLC,+34713 10 60 45,+34 729100231,Sequi provident cupiditate occaecati.
+Paula Santamaría,jcorbacho@sanmiguel.net,sebastianmarquez@cazorla-lara.com,baja,+34609 036 147,AM,MP-86883,19415335E,False,2028-02-22,60082173U,1973-10-24,2015-09-04,,"Rambla de Dorotea Gelabert 258 Puerta 0 
+Palencia, 61742",Navarra,Asturias,España,40887,EMP03466,"Araujo, Delgado and Rovira",+34681 53 47 80,+34 738609872,Quos aliquam assumenda sunt.
+Begoña Elisabet Luna Durán,iduenas@bermejo-heredia.es,teodorocarrion@pedro.net,activo,+34 702 237 093,"B1,A,C1E",MP-65223,07251191Z,False,2030-02-23,68683710Z,1982-10-01,2020-09-16,2025-12-26,"Alameda Teófila Flor 77 Piso 3 
+Cuenca, 95342",Murcia,Las Palmas,España,11121,EMP40355,"Escalona, Cal and Bilbao",+34 714959944,+34 721381222,Minus molestiae facilis adipisci sint.
+Patricio Marcial Niño Cuervo,ariadnarosello@amor-villa.com,leonardo42@pino-burgos.es,baja,+34701285437,"A1,AM,D1E",MP-27109,35403006Q,True,2030-04-26,18208664S,1965-08-24,2019-11-09,,"Avenida de Jenaro Escribano 3
+Barcelona, 16500",Guipúzcoa,Cuenca,España,10603,EMP09780,Oliva-Vicente,+34983 37 54 72,+34 748873926,Aliquam consequatur dicta quisquam modi nostrum.
+Dominga Amo Salvador,ljauregui@gordillo.es,canalsmaricruz@barrios-arellano.es,activo,+34622657214,D1E,MP-7298,80355386V,False,2032-02-07,18404000J,1998-08-09,2024-02-28,2025-12-28,"Cañada Ezequiel Azorin 95
+Vizcaya, 40465",Burgos,Pontevedra,España,89745,EMP60851,Córdoba PLC,+34 689385501,+34701361012,Cupiditate sapiente soluta perspiciatis iusto dolore vero.
+Nilda Mateo,girongenoveva@hotmail.com,serranobenito@duenas.es,inactivo,+34 710 708 615,"AM,CE",MP-94031,46066531X,False,2034-07-17,57776870Z,2004-03-06,2021-11-15,,"Glorieta de Iván Royo 86
+Ceuta, 41859",Alicante,Granada,España,15889,EMP60051,Torres-Blanca,+34 886 794 819,+34 887 360 568,Id itaque repudiandae fugiat dolores.
+Zacarías Teobaldo Balaguer Montenegro,chaconlazaro@peinado.com,adoravazquez@azcona.es,baja,+34 726 96 35 44,CE,MP-99299,50562383B,False,2030-08-01,41093840A,1962-12-01,2015-12-29,2025-04-26,"Vial de Apolonia Mendez 85
+Pontevedra, 08875",Jaén,Vizcaya,España,93613,EMP58185,Espejo LLC,+34 747532063,+34978 949 283,Ut incidunt esse neque tempore harum.
+Gerardo Grau-Valenzuela,jose-manuel13@dieguez.es,calisto76@alcazar.es,inactivo,+34 738404068,"C,B1,A",MP-11836,57313858M,False,2029-05-26,77022472O,1967-11-14,2017-11-02,,"Glorieta de Íngrid Alberto 9
+Jaén, 40721",Tarragona,Guipúzcoa,España,12068,EMP14378,"Gomez, Baños and Hurtado",+34736785231,+34733 959 954,Nisi placeat minus iste repellat dolor.
+Lisandro Zamora-Mínguez,miriaminfante@carretero.es,heribertogarzon@manjon.com,baja,+34960024839,"AM,BE,D1E",MP-54644,14292539S,True,2032-10-16,09690242A,1985-02-23,2020-06-01,,"Pasadizo de Josué Arias 49 Apt. 96 
+Madrid, 46662",Ciudad,Álava,España,64548,EMP10396,"Velasco, Borrás and Frutos",+34723 786 802,+34722 968 316,Ullam iusto quaerat nostrum.
+Edgardo Castro Calleja,adrianabou@navarrete-arroyo.com,batallarenato@larranaga-egea.es,activo,+34 717027802,"B1,A,C1E",MP-7194,54791778S,False,2032-06-22,11822039T,1971-09-28,2023-04-16,,"Paseo Elvira Echevarría 817
+Ciudad, 26266",Córdoba,Madrid,España,54993,EMP20135,Bermudez and Sons,+34710 655 651,+34 747 551 420,Ipsam officia nobis.
+Dionisia Castelló,canetgraciano@gmail.com,ruria@tellez.com,baja,+34731 310 100,A1,MP-11836,18540606P,False,2032-03-06,37697245L,1970-12-31,2021-11-04,,"Callejón de Seve Arévalo 67 Puerta 2 
+Palencia, 65903",Valencia,Soria,España,17533,EMP24219,"Cervera, Barranco and Martorell",+34 968807776,+34 745 189 737,Deserunt labore voluptatum eum.
+Raquel Emelina Morcillo Sala,tamara33@gmail.com,bernardinosancho@macias-palau.es,activo,+34 715 79 79 78,"D1,CE,B",MP-7298,25295883O,True,2032-02-05,20151341S,1971-10-03,2019-02-20,,"Paseo Máxima Solana 13
+Burgos, 86854",Alicante,Baleares,España,97299,EMP62989,Andreu Inc,+34 710 52 16 54,+34733424134,Quo debitis assumenda quibusdam rem molestias.
+Malena Pulido Blasco,niloagudo@yahoo.com,saturnina99@perez-machado.com,inactivo,+34 722894531,"CE,C,B",MP-11836,58019143M,True,2033-10-14,49959829G,1989-09-26,2023-11-11,,"Avenida de Nico Raya 59 Apt. 59 
+Sevilla, 20095",Murcia,Murcia,España,43309,EMP93811,Porras Ltd,+34 714 13 42 20,+34 712720103,Sed minus laudantium ex corporis harum.
+Emiliana de Poza,saldanasabina@cuadrado.es,eric54@dalmau-marti.es,activo,+34825 65 01 47,"D,B,DE",MP-54644,20749041S,False,2033-03-05,82733944U,1983-06-04,2016-01-29,,"Ronda Heriberto Pinto 7
+Palencia, 90959",Vizcaya,Salamanca,España,26387,EMP84766,Bellido Group,+34725 138 897,+34 725123846,Repellendus id similique quo rem.
+Cebrián Sosimo Valdés Campos,luciana32@hotmail.com,ypalomares@baeza.es,activo,+34 732 79 58 80,A,MP-39358,59354720D,False,2034-01-14,60129163X,1998-03-27,2022-12-18,,"Callejón de Chelo Ramírez 531
+Valencia, 97884",Sevilla,Ourense,España,69578,EMP77937,"Ferreras, Morera and Bauzà",+34721 71 72 09,+34725 40 75 30,At architecto nihil vitae.
+Esther Frutos Blazquez,amandocampoy@galvez-segovia.es,rbolanos@quintero-antunez.es,baja,+34 703 800 036,"B,CE",MP-44036,56494241U,True,2033-04-14,52908986Z,2005-07-23,2018-06-25,2025-07-22,"Glorieta Rolando Valero 91 Puerta 7 
+Guadalajara, 14182",Cantabria,Sevilla,España,14105,EMP40249,Iriarte-Vicens,+34 947 278 503,+34674 68 03 23,Ex vitae commodi ut.
+Guillermo Lasa Echevarría,lucenaanselma@hotmail.com,arambururuth@carbajo.es,inactivo,+34885 67 93 11,"B,A1",MP-67226,69352383F,True,2031-12-02,69813009A,2000-04-12,2018-05-01,,"Ronda Pepe Gelabert 36 Piso 7 
+Cuenca, 46519",Sevilla,Zamora,España,38913,EMP45029,Bellido-Pizarro,+34683 742 196,+34711816415,Vel nihil pariatur.
+Camilo Peinado Agustín,kplana@yahoo.com,rosana-belen@benavides.com,baja,+34 732 385 246,"C1,D1",MP-60520,72241391O,False,2035-03-25,64112788M,1981-10-20,2021-03-30,,"Pasadizo de Bernarda Villaverde 98 Apt. 44 
+Santa Cruz de Tenerife, 91596",Almería,Salamanca,España,47503,EMP53329,"Carrera, Lluch and Lago",+34729569784,+34641 15 86 94,Itaque ea ipsa velit est ea.
+Paulina Iborra Iniesta,montserrat33@lobato-jauregui.com,geronimo54@villena.es,inactivo,+34 912 213 976,"D1E,D1,BE",MP-31407,58132525D,False,2033-09-11,91432871N,2002-08-03,2019-09-20,2026-03-17,"Via Daniela Garcia 40
+Ciudad, 00185",Badajoz,Zamora,España,96395,EMP90484,"Coello, Arana and Méndez",+34 708 97 83 48,+34 741034189,Illum soluta vel ut ut est quia.
+Isabela Mendizábal Blázquez,valentina22@hotmail.com,barberagisela@marti.es,baja,+34 856 575 759,CE,MP-14925,67487086E,True,2034-08-04,21366503V,1961-06-11,2017-09-22,,"Alameda Rómulo Casals 1 Puerta 2 
+Las Palmas, 44385",Navarra,Las Palmas,España,80826,EMP41254,"Falcón, Calderón and Murcia",+34 880711456,+34 731266846,Provident sit odio harum.
+Adelaida Chus Fuentes Escudero,maria-cristinajimenez@jaume-cervantes.org,clementinasolis@castilla.com,inactivo,+34712756942,B1,MP-51902,83773995Y,True,2030-05-15,67122407J,1960-01-15,2022-03-26,,"Cañada de Juanito Ramos 81
+Segovia, 78907",Melilla,Almería,España,91663,EMP70303,Carrasco Group,+34 749 85 43 58,+34 939 99 69 36,Alias atque deserunt molestiae.
+Rodrigo Mosquera Cadenas,cerveraaurelio@vara.es,isidro10@oller.com,baja,+34739 921 951,"A2,AM,A",MP-44989,32950003R,False,2030-05-11,49231353S,2004-08-20,2018-09-28,,"Ronda de Susana Nebot 162 Apt. 05 
+Badajoz, 95972",Madrid,La Rioja,España,29666,EMP75603,"Saura, Sancho and Nevado",+34 743 34 48 94,+34996 99 00 74,Est fugit est necessitatibus eum voluptatibus.
+Daniela Cuadrado Arenas,yolanda02@barroso.com,ileanaginer@salmeron.com,activo,+34728789845,D1E,MP-31407,55948994T,True,2028-09-05,20912089X,1965-12-27,2024-03-31,,"Ronda Mirta Benet 63 Apt. 91 
+Pontevedra, 02692",Alicante,Guipúzcoa,España,04884,EMP48278,Quirós Group,+34 722758681,+34882 45 94 45,Eveniet hic quidem nulla cumque.
+Pascuala Barberá Aller,aristidesraya@gmail.com,julianoemi@salinas.es,baja,+34735 369 546,D1E,MP-84073,98332167V,False,2034-06-04,39196077Q,1982-01-15,2024-12-17,,"Alameda de Sabas Ferrán 92 Apt. 57 
+Zaragoza, 94389",Barcelona,Cáceres,España,44970,EMP08254,Martí Ltd,+34736 48 32 41,+34 715 045 766,Molestias iusto necessitatibus fugit dignissimos aperiam.
+Nazario Díaz Llamas,xarellano@revilla.es,nelidabellido@vives.es,inactivo,+34732 78 94 77,"C1,A",MP-22317,33494542N,False,2030-05-12,28277488A,1967-07-27,2018-02-20,,"Rambla de Agustín Sevilla 12 Puerta 5 
+Zaragoza, 80581",Zaragoza,Ourense,España,34466,EMP94479,Caparrós-Peinado,+34 613 946 040,+34700177878,Inventore ipsum quae voluptates.
+Rosalina Guillen Arcos,camposrodrigo@gmail.com,ratienza@tome.es,inactivo,+34 911 25 24 59,"AM,BE,B",MP-20423,96328307E,True,2034-07-22,18352924T,1971-02-09,2025-01-29,,"Rambla África Andreu 12 Apt. 50 
+Madrid, 47739",Huelva,Madrid,España,20854,EMP19588,Murcia-Redondo,+34682 138 523,+34 649868568,Doloremque fugiat hic.
+Paloma Lucena Méndez,jose-antoniooliver@gmail.com,vgrande@ballesteros.com,inactivo,+34 713 618 488,"A1,C1",MP-94307,71594411C,True,2031-04-10,07745282C,2005-04-14,2020-09-03,,"Cañada de Carmelita Riera 9
+Cantabria, 09012",Badajoz,Huelva,España,65495,EMP75660,Carballo-Guitart,+34903489839,+34 706002746,Placeat nam voluptate quas quod voluptatibus.
+Griselda Girona-Zabaleta,nayaraserra@yahoo.com,canalesadriana@estrada-sales.com,activo,+34 842 57 09 42,"C1,D1E",MP-20423,78666917Q,False,2034-01-19,19644152R,1963-06-24,2019-04-30,,"Cuesta Dimas Laguna 489
+Murcia, 63476",Girona,Álava,España,57658,EMP71079,"Arias, Barragán and Robledo",+34974586834,+34718 02 34 66,Voluptatum culpa id.
+Concha Blanco Ureña,zamoranopili@hotmail.com,batallaeladio@batlle-arellano.com,baja,+34928855983,C1,MP-8078,60414495X,False,2029-04-09,79666344Z,1988-03-07,2021-10-03,,"Plaza de Sabas Segovia 26 Piso 6 
+Cuenca, 91462",Málaga,Jaén,España,63618,EMP80635,"Reguera, Arnau and Carreras",+34 746 501 965,+34 878058212,Nesciunt ipsum debitis odit.
+Úrsula Gomez Goñi,ruedamagdalena@arce.net,manuelita95@hoyos.es,activo,+34 748 87 62 50,"A2,D1E,B",MP-76792,18280130L,True,2034-11-21,51258009M,1993-07-13,2024-11-09,,"Via Teodosio Ramis 6
+Palencia, 43064",Álava,La Coruña,España,96795,EMP00515,Llopis PLC,+34 748 72 86 55,+34 730 97 94 19,Eaque quae tempore minima.
+Rodolfo Francisco Javier Solé Paredes,godofredo50@herrera.com,zescribano@cortina-mercader.es,inactivo,+34713176454,DE,MP-32423,10693454T,False,2034-10-11,80363996B,1959-08-30,2016-01-16,,"Alameda Florencia Perelló 6
+Sevilla, 37847",Huelva,León,España,77730,EMP78607,Cerdá-Perea,+34711 35 76 70,+34 864897230,Aspernatur voluptatem repellendus laboriosam earum dolor.
+Silvia Revilla Barrena,xtamayo@prats.es,bclemente@aguila.com,inactivo,+34 677452547,"BE,C1E",MP-53732,98268428E,False,2028-02-20,18890490D,1987-06-12,2018-06-03,,"Ronda de Magdalena Calvo 791 Piso 3 
+Las Palmas, 72283",Teruel,Segovia,España,90107,EMP13744,"Dávila, Cortés and Aramburu",+34 913 614 344,+34 735 826 911,Perspiciatis asperiores a.
+Tristán Rozas Egea,renatosilva@gmail.com,roldanamancio@paez.es,inactivo,+34 742392073,"B1,C",MP-2943,94293155D,True,2033-09-14,36232369R,1963-05-03,2015-05-16,,"Rambla de Alfredo Ibañez 67 Puerta 7 
+Cuenca, 71082",Valladolid,Valencia,España,66424,EMP69949,Herrera Ltd,+34 726 654 711,+34825212161,Explicabo sapiente non possimus molestias neque.
+Melania Canales,juan-manuelmontserrat@segura-hervas.com,isaias39@tejada-iglesias.es,baja,+34747 40 91 68,"A2,CE,C",MP-66973,67922735C,False,2030-07-15,75349852J,1998-07-29,2015-10-25,,"Rambla Elías Arranz 79 Apt. 03 
+Valladolid, 46663",Badajoz,Toledo,España,91526,EMP12351,Chacón Ltd,+34728124254,+34 726 912 192,Sint dolore reiciendis quibusdam.
+María Teresa del Páez,arenasporfirio@morcillo.es,eliseo39@varela.com,baja,+34644 51 69 44,B,MP-39358,18738087A,True,2029-09-24,15594406D,2006-03-18,2017-12-16,2025-09-15,"Glorieta de Florina Conesa 99 Puerta 7 
+Girona, 17738",Santa Cruz de Tenerife,Cuenca,España,06010,EMP69119,"Solé, Espada and Prado",+34 747058769,+34723 51 59 55,Illo fuga eos reprehenderit quas corporis.
+Carina Artigas Rosell,porfiriocobo@muro-lloret.net,carmina35@avila.net,baja,+34 866 51 37 74,"AM,BE",MP-59304,69507969D,True,2027-05-07,02493502D,1989-09-12,2017-04-28,,"Vial Juan Pablo Dominguez 23 Piso 9 
+Guadalajara, 55702",Madrid,Guipúzcoa,España,78802,EMP63794,"Bayón, Carbó and Peña",+34 700772410,+34 722789191,Doloremque aperiam rerum officiis illum necessitatibus.
+Eladio Sala Angulo,ypriego@yahoo.com,duenasgervasio@tudela.es,baja,+34 921316262,"A2,D1",MP-6740,73663425C,False,2033-03-20,85262335O,2006-01-22,2020-02-05,,"Callejón de Jacinta Bou 8
+Las Palmas, 04589",Albacete,Burgos,España,86314,EMP43862,"Porcel, Aguirre and Arcos",+34708 63 93 01,+34 684 978 603,Dicta asperiores laborum esse hic.
+Nacho Girón,baenamaura@pedrero.com,lguillen@alegre-rossello.es,inactivo,+34 715 256 020,"C1E,C1,BE",MP-67627,14528581Q,True,2031-07-25,47493266A,1972-11-19,2019-10-26,,"Pasadizo de Jorge Leiva 68 Apt. 51 
+Valencia, 03492",Asturias,Barcelona,España,57914,EMP65997,Barros PLC,+34727684025,+34 744 02 31 70,Aliquid similique amet inventore.
+Alexandra Andreu Ramón,herminio45@lobo-barranco.es,juana26@egea.com,baja,+34800 25 22 88,"D,A1",MP-63314,83644854R,True,2029-05-24,05576119Y,1966-10-31,2023-02-27,,"Rambla Leire Crespi 72
+Murcia, 35446",Huesca,Navarra,España,88415,EMP43064,"Esteban, Vallés and Marti",+34954023582,+34619 93 73 98,Aut illo vitae accusamus quo minus.
+Duilio Checa-Ibañez,armengolmayte@yahoo.com,kbartolome@bejarano.net,baja,+34 701565861,"C,A1",MP-78656,91397636Y,False,2028-08-08,00406376Z,1997-08-19,2015-08-24,2026-03-30,"Camino de Leocadia Vilaplana 109 Apt. 89 
+Segovia, 98822",Teruel,Teruel,España,65407,EMP57568,Viana-Casanova,+34 716 72 02 62,+34728062464,Minus voluptates quidem debitis architecto.
+Carmina Plaza Márquez,azenethariza@hotmail.com,remigiograu@perera-quesada.net,activo,+34746 88 71 39,"B,A,DE",MP-3095,29922329W,True,2031-05-21,72986572O,1966-06-02,2025-02-26,,"Paseo de Mamen Ferrer 46 Puerta 0 
+Ávila, 86172",Tarragona,Cáceres,España,41725,EMP74595,Machado-Blanco,+34704800040,+34 731354314,Dolore a consequuntur consequuntur praesentium quia.
+Fortunata Abril-Ferrándiz,friasguadalupe@asensio.org,sferrando@benito-moya.com,baja,+34 704 54 22 27,"DE,D1",MP-78831,99186408K,False,2028-06-14,15566732R,1993-07-30,2023-01-19,,"Callejón Arcelia Prada 40
+Toledo, 49836",Ceuta,La Rioja,España,56566,EMP08674,Mendoza-Valle,+34 830 02 34 71,+34715 806 407,Exercitationem deleniti rerum hic repellat nisi.
+Adelia Garriga Benavides,duilioreal@yahoo.com,josefina18@alarcon.net,activo,+34 702 47 98 22,DE,MP-88471,50303637V,True,2027-01-24,95694564Q,1996-08-03,2024-11-16,,"Cuesta Jose Carlos Madrid 6 Apt. 27 
+Lleida, 46677",Valencia,Girona,España,36474,EMP94632,Benet Ltd,+34700 84 20 40,+34716 68 86 16,Adipisci quasi saepe fugiat.
+Lisandro Jose Antonio Martínez Ponce,perezeulalia@ramirez-villar.es,celso21@gonzalez.org,activo,+34702679960,"DE,A,D1E",MP-48592,90522517P,False,2029-12-30,99848662K,1981-12-05,2022-03-18,2026-03-13,"Glorieta Victoriano Salmerón 93 Puerta 2 
+Alicante, 71842",Burgos,Palencia,España,34372,EMP95773,Fabra Inc,+34728241839,+34723 33 43 37,Facilis dolorem maxime enim numquam eveniet.
+Ricarda Carvajal,teruelraimundo@hotmail.com,feliuvaleria@amaya-sala.es,activo,+34 931 31 97 82,BE,MP-8078,60957616U,False,2033-06-09,61326782V,1961-08-16,2017-09-12,,"Callejón de Ruth Rubio 12
+Palencia, 70476",La Rioja,Ourense,España,30284,EMP71092,Gimenez-Gallardo,+34722 05 97 38,+34 995 049 321,Cupiditate corporis voluptates reprehenderit.
+Celestino Rosell Manso,manzanodionisio@moles-verdejo.es,nmateos@gutierrez.net,baja,+34634 722 096,"BE,D1E,C",MP-84148,20704449Y,False,2029-05-03,75848031K,1991-10-27,2024-03-10,,"Pasaje de Aurelia Marcos 89
+Cáceres, 80892",Huesca,Castellón,España,70909,EMP19559,Bartolomé PLC,+34738 38 07 08,+34 741942736,Necessitatibus repudiandae placeat asperiores.
+Victorino Velasco-Domingo,inesprieto@yahoo.com,arteagaangela@chamorro-ferran.org,activo,+34743982903,C,MP-7458,30548729B,False,2027-02-02,60778220U,1999-04-28,2019-06-17,,"Alameda Marianela Frutos 57
+Zamora, 70254",Ourense,Baleares,España,00725,EMP87953,"Flores, Pablo and Marín",+34 707 817 248,+34742496938,Exercitationem sed ad voluptatibus asperiores eius.
+Josep Arjona Noriega,dmarco@pazos.com,slaguna@otero-madrigal.com,inactivo,+34864 10 91 74,"A,C1,B",MP-37778,70579302J,True,2033-08-15,79425681P,1980-01-14,2023-11-22,2025-10-15,"Urbanización de Aristides Pujol 86 Piso 0 
+Zaragoza, 51383",Valladolid,Castellón,España,05025,EMP70741,Acevedo LLC,+34 742533177,+34802 97 52 93,Sit eaque eius molestias.
+Cecilio Borja Peral,boadacristian@escolano.net,ytorrents@pablo.org,activo,+34 925883362,"B,C1E",MP-99299,71262634T,True,2029-12-22,03569074B,1973-01-06,2022-12-18,2026-01-20,"Alameda Marcos Palau 11
+Asturias, 53710",Santa Cruz de Tenerife,Cáceres,España,53825,EMP78565,Puga PLC,+34 732355333,+34 747 10 10 24,Itaque natus laborum.
+Eligia Carmona-Farré,jhuertas@yahoo.com,muletalonso@bueno-rodriguez.org,activo,+34722 864 011,"A,DE,C",MP-65223,32353287M,True,2029-11-23,45171083Q,1996-12-18,2017-09-08,,"Cuesta Telmo Sedano 614
+Granada, 46338",León,Las Palmas,España,99490,EMP35828,Arnau-Aramburu,+34821 778 968,+34726916726,Ullam ut maxime incidunt quaerat ullam officiis.
+Priscila Luz Navarro,melaniacano@osuna.es,aferrero@navas.com,baja,+34 716 726 668,"C1E,A1",MP-94656,24744709I,False,2031-06-24,87972257V,1967-12-27,2021-02-03,,"Cuesta Lourdes Quintanilla 21 Apt. 57 
+Guadalajara, 53553",Jaén,Lleida,España,78413,EMP05214,"Hidalgo, Gargallo and Solano",+34716 109 218,+34 702541971,Aliquid adipisci voluptatibus reprehenderit.
+Wálter Zurita Leon,fontconstanza@yahoo.com,marisabauza@pinol.net,inactivo,+34 741040703,"A,D",MP-31407,66766954F,False,2033-08-27,15485263E,1987-02-20,2022-02-24,,"Ronda Elena Pérez 42 Piso 9 
+Teruel, 46252",La Coruña,León,España,37258,EMP92046,Quero-Amaya,+34 709 07 10 95,+34 632 49 35 97,Ratione rem quas in sit.
+Charo Blanes,almacarro@yahoo.com,elenacepeda@bayo.es,inactivo,+34712 31 68 70,"D,A2",MP-30360,53611614W,True,2030-09-14,78642098R,1984-03-23,2023-12-23,,"Cañada Jovita Calderon 13 Apt. 82 
+Santa Cruz de Tenerife, 86338",Álava,Santa Cruz de Tenerife,España,68329,EMP84461,Palomares-Cervera,+34 731191491,+34 650 673 450,Cumque tempora nobis commodi laboriosam alias.
+Fernando Rebollo Ripoll,xrojas@gmail.com,luciocardona@montenegro.net,inactivo,+34 735 445 676,"C,A2,B",MP-50067,18003709I,True,2032-09-23,27410503Q,1970-10-26,2019-06-12,,"Alameda de Dimas Morillo 19
+Valencia, 25722",Ciudad,Cáceres,España,47479,EMP62398,Lorenzo Ltd,+34 727 21 85 33,+34 727 39 12 21,At dolores exercitationem nulla culpa animi.
+Ramiro Clavero Izaguirre,jordana57@hotmail.com,canojuan-francisco@quintanilla.es,baja,+34707 223 297,C1,MP-79166,66666673N,True,2034-10-23,26171159H,1967-01-21,2022-10-13,,"Cuesta de Norberto Palmer 54
+Málaga, 03437",Segovia,Zamora,España,53435,EMP38476,"Zaragoza, Franch and Benito",+34 841384523,+34709 11 77 69,Aut quos quod perspiciatis totam.
+Hilario del Mariño,cvalderrama@sanz.com,ncabezas@mayol.com,inactivo,+34737418745,AM,MP-39358,57004223C,True,2030-08-26,50171684B,1971-08-02,2016-10-09,,"Cañada Bruno Acosta 21 Apt. 17 
+Sevilla, 77336",Palencia,Tarragona,España,01767,EMP01414,"Páez, Pedraza and Mur",+34 708 01 68 09,+34602 64 45 01,Soluta inventore quaerat amet cumque vero.
+Francisca Sotelo-Sevilla,joseginer@tome.es,fidela20@chamorro.es,inactivo,+34983599805,AM,MP-66353,74863816T,False,2027-01-22,24193647F,1996-10-07,2021-04-23,2025-07-28,"Calle Carina Casares 689 Puerta 7 
+Badajoz, 05693",Huesca,Las Palmas,España,68359,EMP84779,"Iniesta, Bonet and Barragán",+34680 023 918,+34 723 092 474,Nam adipisci consectetur ipsam.
+Cándida de Osorio,rosalinagarate@redondo-palomo.com,german12@mayoral.es,baja,+34721915723,BE,MP-37318,22973833H,True,2032-07-20,99157511B,1997-12-26,2020-12-18,,"C. Patricia Pedraza 372
+Alicante, 79035",Jaén,Sevilla,España,55332,EMP40511,Adadia-Blanca,+34723 39 03 91,+34 746 08 52 31,Iste voluptatibus ipsum quos magnam pariatur.
+Susanita Domínguez Blasco,sierrabarbara@mur-otero.es,nereidaanguita@carballo-porras.es,activo,+34948 33 72 50,"CE,DE",MP-18397,82223130B,True,2035-02-26,37336745T,1982-01-08,2022-09-06,,"Camino de Mariano Reina 76 Puerta 2 
+Lugo, 40384",Lleida,Cantabria,España,69127,EMP68963,"López, Ramirez and Álamo",+34 702607891,+34 976934737,Ab nostrum minus impedit voluptas hic.
+Inmaculada Huertas Alfonso,ruperto27@yahoo.com,jose-manuelluis@acosta-morante.com,activo,+34844 42 09 67,B,MP-67627,54175304Y,True,2026-10-16,92316809O,2003-06-12,2016-04-22,,"Calle Jose Francisco Aparicio 9
+Álava, 77866",Cáceres,Ourense,España,88787,EMP09437,Barberá-Vilar,+34725 91 12 93,+34711825987,Illum quia maiores velit.
+Candela Jimenez Conde,nmanzanares@yahoo.com,xboada@vilaplana.org,inactivo,+34703865677,"D,D1E",MP-31407,08355750E,True,2026-12-31,56232334H,1982-02-09,2019-12-24,,"Callejón de Omar Múgica 90
+Ciudad, 34496",Cantabria,Granada,España,12346,EMP38169,Font-Almagro,+34749 494 038,+34711 925 978,Eum quaerat repudiandae inventore.
+Alcides Villalba Peña,espiridionzabaleta@gmail.com,nalcazar@rosales-prat.org,activo,+34 748 89 54 73,"C,A",MP-7298,22274190N,False,2029-08-17,14800621L,1965-10-30,2018-11-14,,"Plaza de Irma Arrieta 857 Apt. 40 
+Tarragona, 22130",Segovia,Cantabria,España,69837,EMP83540,Lumbreras-Cortés,+34806 93 03 87,+34 706248327,Minima odit nam.
+Serafina Falcó Dueñas,godofredoarmas@yahoo.com,teclamiro@manzanares.es,inactivo,+34968 56 95 41,B,MP-30860,22804609W,True,2031-08-14,32549517Y,1975-08-18,2023-04-06,,"Pasadizo Elisabet Guitart 8
+Palencia, 37638",Palencia,Sevilla,España,35164,EMP82966,"Madrid, Sanmartín and Briones",+34 702 82 62 34,+34 892 02 63 20,Eaque iure cum aut.
+Pilar Díaz Gutiérrez,kteruel@hotmail.com,maitellopis@gallardo.net,activo,+34746 72 78 34,"C,CE,D1",MP-78831,14914802W,False,2030-11-09,23725159Y,1993-03-21,2019-12-22,,"Callejón Prudencio Canals 524 Puerta 2 
+Córdoba, 91464",Salamanca,Toledo,España,89034,EMP41621,Aznar Group,+34939373905,+34712595191,Sint perferendis excepturi dolorem.
+Florencio Raya Cardona,torralbamirta@yahoo.com,carvajalveronica@amador.com,inactivo,+34 824 85 62 04,B1,MP-94307,24099679W,False,2031-11-20,91142191Q,1984-07-30,2020-06-11,,"C. de Mayte Beltrán 62
+Navarra, 52703",Guipúzcoa,Pontevedra,España,50722,EMP73182,Murillo-Esteban,+34 744 73 67 59,+34727 678 325,Quas reiciendis saepe.
+Manuel Villalonga Téllez,lucas92@yahoo.com,geronimopomares@arco-iriarte.com,inactivo,+34812 272 457,"C1E,DE,D1",MP-60520,78480095N,False,2029-10-31,66335929Z,2004-08-10,2018-12-16,2025-06-23,"Paseo Martirio Quevedo 8
+Murcia, 84073",Pontevedra,Segovia,España,75707,EMP65232,Lobato Group,+34 932 564 715,+34715333689,Totam sit facilis alias reiciendis eius.
+Ale Maza,quique91@yahoo.com,arribasteodosio@blanes.es,inactivo,+34 748 160 612,"A,D1",MP-22317,17462549Y,True,2029-04-10,82426598A,1999-02-10,2016-09-29,2025-07-08,"Urbanización Matías Landa 78
+Alicante, 43113",Tarragona,Ourense,España,25316,EMP95995,Asenjo-Girón,+34 738 94 52 36,+34 727283012,Laudantium nobis eligendi tempore.
+Ramiro Estevez-Cañete,romafabian@buendia.es,miriarte@saez.com,baja,+34702787494,DE,MP-79166,27821717T,True,2031-12-29,12569659H,1960-05-15,2017-08-07,,"Via Maribel Camps 300 Puerta 1 
+Salamanca, 12733",La Rioja,Castellón,España,70880,EMP92011,Nadal and Sons,+34 856 213 752,+34715 213 509,Repudiandae saepe sed doloremque velit minus assumenda.
+Abigaíl Piedad Mur Borrego,carmelo39@pages-dominguez.es,griselda17@canas-girona.es,activo,+34 738 48 92 38,AM,MP-74576,51396930N,True,2028-04-11,59014759R,1962-03-19,2017-05-04,2025-05-07,"Acceso de Dalila Ugarte 82
+Álava, 55241",Salamanca,Asturias,España,57956,EMP23654,Núñez Group,+34712938953,+34 934265624,Culpa quo cupiditate ut.
+Tamara Duque Tamarit,josefinahoyos@hotmail.com,cgonzalez@sosa-andrade.com,baja,+34914 52 53 55,"C1E,B",MP-89559,14506757K,True,2028-10-29,69754679P,1963-02-19,2022-01-04,,"Paseo de Adela Valcárcel 61
+Girona, 07151",Madrid,Cantabria,España,32595,EMP10300,"Navas, Lluch and Pol",+34747526851,+34862928650,Tempore placeat nisi deleniti.
+Camila Angelina Rubio Poza,matildeguerrero@sandoval-roldan.es,evaristo61@fuentes-perera.net,inactivo,+34731459530,"B1,D",MP-21050,99696026O,False,2032-06-14,05446502I,1984-08-05,2017-03-07,,"Urbanización Josefina Planas 6 Puerta 6 
+Teruel, 14461",Málaga,Valencia,España,41653,EMP57487,Villegas LLC,+34 810 57 75 47,+34726 086 709,Occaecati exercitationem iusto.
+Nerea Martí,constanzagiralt@gmail.com,fortunata33@coello.es,activo,+34735975233,"D1E,AM",MP-31407,20674538P,True,2035-04-05,17020262V,1980-03-06,2017-11-11,,"Ronda Elisa Carro 66
+Álava, 96284",Guadalajara,Guadalajara,España,98731,EMP15261,Gimenez-Flor,+34 997581399,+34725985709,Animi dolor ab.
+Concha Carmen Pino Ibáñez,esperanza88@benavides.com,bolanoschus@pizarro.com,inactivo,+34709 423 384,"DE,C1",MP-37778,83147712M,True,2029-01-24,55975341U,2005-05-24,2022-08-29,,"C. Rosaura Pomares 93
+Almería, 71634",Jaén,Vizcaya,España,09886,EMP25044,Albero Ltd,+34 664170218,+34627 75 49 50,Neque nisi quos minima.
+Ciríaco Benigno Catalán Mesa,ztenorio@gmail.com,vizquierdo@carbonell.com,baja,+34734 35 38 79,"D1,A2",MP-39358,59988069R,True,2034-03-29,62753330P,1982-03-25,2022-03-07,,"Acceso de Dafne Alcázar 46 Piso 5 
+Zaragoza, 26744",Guipúzcoa,Castellón,España,60520,EMP00572,Anaya-Riera,+34 745884950,+34 809637358,Suscipit alias enim molestias ratione quasi.
+Adoración Barreda Durán,ferreroaitor@yahoo.com,adoracion91@abella.com,baja,+34714 910 480,"B1,CE",MP-4939,80279366Z,True,2031-06-25,92838062G,1972-07-05,2018-12-08,,"Via de Encarna Cárdenas 452 Apt. 08 
+Ciudad, 80869",Almería,Álava,España,09109,EMP90849,Asensio Group,+34674 049 688,+34 920 63 23 43,Mollitia esse quia nulla.
+Milagros Cózar,olgatolosa@jimenez-milla.com,olivernando@ballester-porras.com,activo,+34870 51 60 91,B,MP-7298,61344378T,False,2034-03-02,56920714I,2000-01-28,2019-08-30,,"Glorieta Ainara Morales 99 Piso 7 
+Ceuta, 97782",Ávila,Cáceres,España,13247,EMP90108,Velázquez Inc,+34 704 59 37 84,+34707 040 782,Necessitatibus voluptatem facilis perferendis laborum nemo.
+Eulalia Montalbán-Iñiguez,valencianowalter@gmail.com,venriquez@cardona-jaume.es,inactivo,+34732 70 10 98,"B,DE",MP-27109,86858842R,False,2028-05-21,08937316I,1996-12-07,2020-11-17,,"Paseo Benita Novoa 3 Piso 4 
+Sevilla, 82703",Córdoba,Castellón,España,30855,EMP98799,Escalona-Pazos,+34710 74 97 85,+34 695 71 97 45,Cupiditate est qui porro nulla.
+Cruz del Cerezo,checanerea@yahoo.com,desiderio56@blazquez-botella.com,inactivo,+34 724 13 13 17,"DE,BE",MP-63314,47402771P,True,2030-07-03,35485620Z,1992-05-15,2023-03-03,2025-10-10,"Vial Patricio Pavón 77
+Santa Cruz de Tenerife, 54731",Guipúzcoa,Sevilla,España,19453,EMP98429,Abril-Vallés,+34 644 49 88 85,+34686 21 14 60,Suscipit dolores illum temporibus fuga fuga.
+Ágata Farré,pinoljose-angel@hotmail.com,ychaves@sanabria.es,baja,+34 728 439 681,D1,MP-64778,72883119M,True,2033-01-08,25398685V,1984-12-10,2015-11-13,,"Avenida Carmen Mulet 33
+Zaragoza, 36386",Girona,Tarragona,España,38744,EMP94508,Olivé-Mur,+34 741 65 48 37,+34 815 838 832,Corporis quidem numquam eos natus.
+Jonatan Bruno Piñeiro Cantero,alexaraujo@sales.com,hermenegildo18@ferrandiz.net,baja,+34 915 374 734,"CE,B1,D",MP-2943,82512512Y,False,2029-01-03,58943782S,1983-10-18,2021-08-03,2026-01-10,"Alameda de Roberta Vallejo 329
+Zaragoza, 15738",Salamanca,Barcelona,España,34721,EMP06154,"Vigil, Agustín and Pinto",+34732 988 864,+34715550263,Suscipit quod minus.
+Albert Perea Checa,godofredonadal@duque-perez.org,josefa48@torrijos.org,activo,+34701 33 94 47,"DE,BE",MP-94656,31936830R,True,2032-04-04,56527547R,1971-03-09,2015-06-16,,"Urbanización de Salomón Asensio 5 Apt. 27 
+Huelva, 75528",Valladolid,Albacete,España,62389,EMP28651,Ariño PLC,+34 700 776 807,+34719 20 20 55,Ad ipsum architecto a eos quasi.

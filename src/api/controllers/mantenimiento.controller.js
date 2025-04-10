@@ -2,7 +2,7 @@ const Mantenimiento = require('../models/mantenimiento.model');
 const Vehiculo = require('../models/vehiculo.model');
 const Proveedor = require('../models/proveedor.model');
 
-const getAllMantenimientos = async (req, res) => {
+const getAllMantenimientos = async (req, res, next) => {
   try {
     const mantenimientos = await Mantenimiento.find()
       .populate('vehiculo')
@@ -13,7 +13,7 @@ const getAllMantenimientos = async (req, res) => {
   }
 };
 
-const getMantenimientoById = async (req, res) => {
+const getMantenimientoById = async (req, res, next) => {
   try {
     const mantenimiento = await Mantenimiento.findById(req.params.id)
       .populate('vehiculo')
@@ -27,7 +27,7 @@ const getMantenimientoById = async (req, res) => {
   }
 };
 
-const createMantenimiento = async (req, res) => {
+const createMantenimiento = async (req, res, next) => {
   try {
     const { vehiculo, taller, ...resto } = req.body;
     const vehiculoObj = await Vehiculo.findById(vehiculo);
@@ -51,7 +51,7 @@ const createMantenimiento = async (req, res) => {
 };
 
 // Actualizar
-const updateMantenimiento = async (req, res) => {
+const updateMantenimiento = async (req, res, next) => {
   try {
     const updated = await Mantenimiento.findByIdAndUpdate(req.params.id, req.body, { new: true });
     if (!updated) {
@@ -64,7 +64,7 @@ const updateMantenimiento = async (req, res) => {
 };
 
 // Eliminar
-const deleteMantenimiento = async (req, res) => {
+const deleteMantenimiento = async (req, res, next) => {
   try {
     const deleted = await Mantenimiento.findByIdAndDelete(req.params.id);
     if (!deleted) {

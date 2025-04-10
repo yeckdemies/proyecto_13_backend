@@ -1,6 +1,6 @@
 const Proveedor = require('../models/proveedor.model');
 
-const getAllProveedores = async (req, res) => {
+const getAllProveedores = async (req, res, next) => {
   try {
     const proveedores = await Proveedor.find();
     res.status(200).json(proveedores);
@@ -9,7 +9,7 @@ const getAllProveedores = async (req, res) => {
   }
 };
 
-const getProveedorById = async (req, res) => {
+const getProveedorById = async (req, res, next) => {
   try {
     const proveedor = await Proveedor.findById(req.params.id);
     if (!proveedor) {
@@ -21,7 +21,7 @@ const getProveedorById = async (req, res) => {
   }
 };
 
-const createProveedor = async (req, res) => {
+const createProveedor = async (req, res, next) => {
   try {
     const newProveedor = new Proveedor(req.body);
     const saved = await newProveedor.save();
@@ -31,7 +31,7 @@ const createProveedor = async (req, res) => {
   }
 };
 
-const updateProveedor = async (req, res) => {
+const updateProveedor = async (req, res, next) => {
   try {
     const updated = await Proveedor.findByIdAndUpdate(req.params.id, req.body, {
       new: true
@@ -45,7 +45,7 @@ const updateProveedor = async (req, res) => {
   }
 };
 
-const deleteProveedor = async (req, res) => {
+const deleteProveedor = async (req, res, next) => {
   try {
     const deleted = await Proveedor.findByIdAndDelete(req.params.id);
     if (!deleted) {

@@ -1,6 +1,6 @@
 const User = require('../models/user.model');
 const bcrypt = require('bcrypt');
-const { signGenerate } = require('../../utils/jwt');
+const { signGenerate } = require('../../helpers/jwt');
 
 const getAllUser = async (req, res, next) => {
   try {

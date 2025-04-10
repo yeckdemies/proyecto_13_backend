@@ -1,6 +1,6 @@
 const Conductor = require('../models/conductor.model');
 
-const getAllConductores = async (req, res) => {
+const getAllConductores = async (req, res, next) => {
   try {
     const conductores = await Conductor.find();
     res.status(200).json(conductores);
@@ -9,7 +9,7 @@ const getAllConductores = async (req, res) => {
   }
 };
 
-const getConductorById = async (req, res) => {
+const getConductorById = async (req, res, next) => {
   try {
     const conductor = await Conductor.findById(req.params.id);
     if (!conductor) {
@@ -21,7 +21,7 @@ const getConductorById = async (req, res) => {
   }
 };
 
-const createConductor = async (req, res) => {
+const createConductor = async (req, res, next) => {
   try {
     const newConductor = new Conductor(req.body);
     const saved = await newConductor.save();
@@ -31,7 +31,7 @@ const createConductor = async (req, res) => {
   }
 };
 
-const updateConductor = async (req, res) => {
+const updateConductor = async (req, res, next) => {
   try {
     const updated = await Conductor.findByIdAndUpdate(req.params.id, req.body, {
       new: true
@@ -45,7 +45,7 @@ const updateConductor = async (req, res) => {
   }
 };
 
-const deleteConductor = async (req, res) => {
+const deleteConductor = async (req, res, next) => {
   try {
     const deleted = await Conductor.findByIdAndDelete(req.params.id);
     if (!deleted) {

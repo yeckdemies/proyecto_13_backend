@@ -1,7 +1,7 @@
 const MetodoPago = metodoPago = require('../models/metodopago.model');
 const Proveedor = require('../models/proveedor.model');
 
-const getAllMetodosPago = async (req, res) => {
+const getAllMetodosPago = async (req, res, next) => {
   try {
     const metodos = await MetodoPago.find().populate('proveedor');
     res.status(200).json(metodos);
@@ -10,7 +10,7 @@ const getAllMetodosPago = async (req, res) => {
   }
 };
 
-const getMetodoPagoById = async (req, res) => {
+const getMetodoPagoById = async (req, res, next) => {
   try {
     const metodo = await MetodoPago.findById(req.params.id).populate('proveedor');
     if (!metodo) {
@@ -22,7 +22,7 @@ const getMetodoPagoById = async (req, res) => {
   }
 };
 
-const createMetodoPago = async (req, res) => {
+const createMetodoPago = async (req, res, next) => {
   try {
     const { proveedor, ...resto } = req.body;
     const proveedorObj = await Proveedor.findById(proveedor);
@@ -42,7 +42,7 @@ const createMetodoPago = async (req, res) => {
   }
 };
 
-const updateMetodoPago = async (req, res) => {
+const updateMetodoPago = async (req, res, next) => {
   try {
     const updated = await MetodoPago.findByIdAndUpdate(req.params.id, req.body, { new: true });
     if (!updated) {
@@ -54,7 +54,7 @@ const updateMetodoPago = async (req, res) => {
   }
 };
 
-const deleteMetodoPago = async (req, res) => {
+const deleteMetodoPago = async (req, res, next) => {
   try {
     const deleted = await MetodoPago.findByIdAndDelete(req.params.id);
     if (!deleted) {
