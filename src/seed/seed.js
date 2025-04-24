@@ -16,9 +16,9 @@ const Mantenimiento = require('../api/models/mantenimiento.model');
 const connectDB = async () => {
   try {
     await mongoose.connect(process.env.DB_URL);
-    console.log('✅ Conectado a MongoDB');
+    console.log('Conectado a MongoDB');
   } catch (err) {
-    console.error('❌ Error al conectar a MongoDB', err);
+    console.error('Error al conectar a MongoDB', err);
     process.exit(1);
   }
 };
@@ -57,7 +57,7 @@ const seedProveedores = async () => {
   }));
 
   const inserted = await Proveedor.insertMany(proveedores);
-  console.log(`🟢 Proveedores insertados: ${inserted.length}`);
+  console.log(`Proveedores insertados: ${inserted.length}`);
 };
 
 // MÉTODOS DE PAGO
@@ -81,7 +81,7 @@ const seedMetodosPago = async () => {
   }
 
   const inserted = await MetodoPago.insertMany(metodos);
-  console.log(`🟢 Métodos de pago insertados: ${inserted.length}`);
+  console.log(`Métodos de pago insertados: ${inserted.length}`);
 };
 
 // CONDUCTORES
@@ -107,7 +107,7 @@ const seedConductores = async () => {
   }
 
   const inserted = await Conductor.insertMany(conductores);
-  console.log(`🟢 Conductores insertados: ${inserted.length}`);
+  console.log(`Conductores insertados: ${inserted.length}`);
 };
 
 // VEHÍCULOS
@@ -135,7 +135,7 @@ const seedVehiculos = async () => {
   }
 
   const inserted = await Vehiculo.insertMany(vehiculos);
-  console.log(`🟢 Vehículos insertados: ${inserted.length}`);
+  console.log(`Vehículos insertados: ${inserted.length}`);
 };
 
 // SANCIONES
@@ -164,7 +164,7 @@ const seedSanciones = async () => {
   }
 
   const inserted = await Sancion.insertMany(sanciones);
-  console.log(`🟢 Sanciones insertadas: ${inserted.length}`);
+  console.log(`Sanciones insertadas: ${inserted.length}`);
 };
 
 // MANTENIMIENTOS
@@ -190,7 +190,7 @@ const seedMantenimientos = async () => {
   }
 
   const inserted = await Mantenimiento.insertMany(mantenimientos);
-  console.log(`🟢 Mantenimientos insertados: ${inserted.length}`);
+  console.log(`Mantenimientos insertados: ${inserted.length}`);
 };
 
 const seed = async () => {
@@ -200,11 +200,11 @@ const seed = async () => {
     await seedMetodosPago();
     await seedConductores();
     await seedVehiculos();
-    await seedSanciones();       // Opcional si tienes CSV
-    await seedMantenimientos();  // Opcional si tienes CSV
-    console.log('🌱 Seed completado correctamente');
+    await seedSanciones();
+    await seedMantenimientos();
+    console.log('Seed completado correctamente!!');
   } catch (err) {
-    console.error('❌ Error durante el seed:', err);
+    console.error('Error durante el seed!!:', err);
   } finally {
     mongoose.connection.close();
   }
