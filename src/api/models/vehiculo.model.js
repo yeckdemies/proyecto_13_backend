@@ -33,11 +33,6 @@ const vehiculoSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  pais: {
-    type: String,
-    enum: ['España', 'Alemania', 'Italia', 'Francia', 'Marruecos', 'Mexico', 'EEUU'],
-    required: true
-  },
   marca: {
     type: String,
     required: true
@@ -58,7 +53,6 @@ const vehiculoSchema = new mongoose.Schema({
   costeAlquilerMensual: Number,
   fechaInicioContratoRenting: Date,
   fechaFinContratoRenting: Date,
-  empresaTitular: String,
   proveedor: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Proveedor'
@@ -66,14 +60,6 @@ const vehiculoSchema = new mongoose.Schema({
   conductor: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Conductor'
-  },
-  tipoRenting: {
-    type: String,
-    enum: ['Fijo', 'Variable']
-  },
-  telemetria: {
-    type: Boolean,
-    default: false
   }
 }, {
   collection: 'vehiculos',

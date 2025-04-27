@@ -17,7 +17,6 @@ const proveedorSchema = new mongoose.Schema({
   direccion: String,
   ciudad: String,
   provincia: String,
-  pais: String,
   codigoPostal: String,
   paginaWeb: String,
   email: String,

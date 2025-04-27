@@ -43,7 +43,6 @@ const createVehiculo = async (req, res) => {
       tipoCombustible: req.body.tipoCombustible,
       permisoCirculacionUrl,
       ciudad: req.body.ciudad,
-      pais: req.body.pais,
       marca: req.body.marca,
       modelo: req.body.modelo,
       anio: Number(req.body.anio),
@@ -52,11 +51,8 @@ const createVehiculo = async (req, res) => {
       costeAlquilerMensual: Number(req.body.costeAlquilerMensual),
       fechaInicioContratoRenting: req.body.fechaInicioContratoRenting ? new Date(req.body.fechaInicioContratoRenting) : null,
       fechaFinContratoRenting: req.body.fechaFinContratoRenting ? new Date(req.body.fechaFinContratoRenting) : null,
-      empresaTitular: req.body.empresaTitular,
       proveedor: req.body.proveedor,
-      conductor: req.body.conductor,
-      tipoRenting: req.body.tipoRenting,
-      telemetria: req.body.telemetria === 'true'
+      conductor: req.body.conductor
     });
 
     await nuevoVehiculo.save();
@@ -83,7 +79,6 @@ const updateVehiculo = async (req, res) => {
       estado: req.body.estado,
       tipoCombustible: req.body.tipoCombustible,
       ciudad: req.body.ciudad,
-      pais: req.body.pais,
       marca: req.body.marca,
       modelo: req.body.modelo,
       anio: Number(req.body.anio),
@@ -92,11 +87,8 @@ const updateVehiculo = async (req, res) => {
       costeAlquilerMensual: Number(req.body.costeAlquilerMensual),
       fechaInicioContratoRenting: req.body.fechaInicioContratoRenting ? new Date(req.body.fechaInicioContratoRenting) : null,
       fechaFinContratoRenting: req.body.fechaFinContratoRenting ? new Date(req.body.fechaFinContratoRenting) : null,
-      empresaTitular: req.body.empresaTitular,
       proveedor: req.body.proveedor,
-      conductor: req.body.conductor,
-      tipoRenting: req.body.tipoRenting,
-      telemetria: req.body.telemetria === 'true'
+      conductor: req.body.conductor
     };
 
     if (permisoCirculacionUrl) {
