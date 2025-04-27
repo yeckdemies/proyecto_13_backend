@@ -15,10 +15,6 @@ const conductorSchema = new mongoose.Schema({
     enum: ['AM', 'A1', 'A2', 'A', 'B1', 'B', 'C1', 'C', 'D1', 'D', 'BE', 'C1E', 'CE', 'D1E', 'DE'],
     default: []
   },
-  metodoPago: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'MetodoPago'
-  },
   numeroPermisoConducir: { type: String },
   permisoPermanente: { type: Boolean, default: false },
   fechaExpiracionPermiso: { type: Date },

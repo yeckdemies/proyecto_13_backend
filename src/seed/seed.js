@@ -7,10 +7,7 @@ require('dotenv').config();
 // MODELOS
 const Proveedor = require('../api/models/proveedor.model');
 const Conductor = require('../api/models/conductor.model');
-const MetodoPago = require('../api/models/metodopago.model');
 const Vehiculo = require('../api/models/vehiculo.model');
-const Sancion = require('../api/models/sancion.model');
-const Mantenimiento = require('../api/models/mantenimiento.model');
 
 // CONEXIÓN
 const connectDB = async () => {
