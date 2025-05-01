@@ -1,101 +1,101 @@
-tipoVehiculo,matricula,bastidor,propiedad,estado,tipoCombustible,permisoCirculacionUrl,ciudad,pais,marca,modelo,anio,color,fechaVigorItv,costeAlquilerMensual,fechaInicioContratoRenting,fechaFinContratoRenting,empresaTitular,proveedor,conductor,tipoRenting,telemetria
-Turismo,6264NRV,IQLETCJRTUGAYCXGD,Propio,Activo,Diesel,http://www.roig.es/,Salamanca,Alemania,Quero and Sons,Omnis,2021,Granate,2025-04-18,1029.0,2024-05-10,2026-03-09,Capdevila-Barrera,"Tamayo, Padilla and Rozas",Marﾃｭa Teresa del Pﾃ｡ez,Variable,True
-SUV,9150GOL,OWYTYBWBLPTJDZXPM,Renting,Inactivo,Diesel + ADV,http://www.castilla.com/,Granada,Marruecos,Solana-Roldﾃ｡n,Ea,2008,Amarillo trigo,2026-06-24,1123.13,2023-10-04,2026-03-22,Reig-Alcolea,Rodrﾃｭguez-Montesinos,Serafina Falcﾃｳ Dueﾃｱas,Variable,False
-SUV,3103FGG,BIAKFZIFIGJXMSTQL,Propio,Taller,Gas,http://www.vilaplana.net/,Ciudad,EEUU,Vﾃｩlez-Luna,Excepturi,2013,Rojo carmesﾃｭ,2027-09-22,318.39,2023-10-05,2025-12-07,Hoyos PLC,"Rey, Flores and Rivas",Eulalia Montalbﾃ｡n-Iﾃｱiguez,Fijo,False
-SUV,0710EDD,ZXTPWUPJLDHSDQSLN,Renting,Taller,Gasolina,http://barbero.net/,Pontevedra,Francia,"Vicente, Osuna and Guardia",Voluptatum,2004,Oliva,2027-12-20,1143.12,2025-03-09,2026-12-19,Prada-Vilar,"Melﾃｩndez, Prado and Comas",Marﾃｭa Teresa del Pﾃ｡ez,Fijo,True
-Furgoneta,6442CLX,CXXRJJWWOOFCAYMLT,Propio,Inactivo,Elﾃｩctrico,http://www.barragan.es/,ﾃ」ila,Alemania,"Morell, Puente and Valbuena",Dolor,2022,Marrﾃｳn arena,2026-10-22,951.06,2024-03-24,2025-11-28,Chico Ltd,Rodrﾃｭguez-Montesinos,Alexandra Andreu Ramﾃｳn,Variable,False
-Furgoneta,9026CZX,QMAJBPLFDFYNKDZFF,Propio,Taller,Elﾃｩctrico,https://arevalo.com/,Jaﾃｩn,Espaﾃｱa,Bou Group,Nesciunt,2005,Beige limﾃｳn,2027-11-19,1177.23,2023-06-19,2025-11-21,"Robledo, Castellanos and Trujillo",Baena-Cerdﾃ｡,Cintia Catalﾃ｡ Campillo,Variable,True
-Turismo,1563TKO,LEJPWHESLRURWUNTN,Renting,Taller,Diesel + ADV,https://vazquez-cazorla.org/,Ceuta,EEUU,Bﾃ｡ez Ltd,Culpa,2003,Beige limﾃｳn,2025-04-28,488.73,2023-08-23,2027-02-19,Arribas-Barco,"Paz, Cantﾃｳn and Landa",Ramiro Estevez-Caﾃｱete,Variable,True
-Furgoneta,0148YAF,SIDBVYEBSQUCZEDPA,Renting,Inactivo,Diesel + ADV,http://revilla.es/,Huesca,EEUU,"Verdugo, Ribes and Linares",Necessitatibus,2020,Cyan oscuro,2025-07-04,1164.92,2024-08-11,2025-09-08,Borja LLC,"Coll, Ruano and Noguﾃｩs",Andrﾃｩs Iﾃｱiguez-Navarro,Fijo,True
-SUV,8132QXE,EKKQQEQNREPLLUTES,Renting,Activo,Diesel + ADV,http://castello.es/,Jaﾃｩn,Espaﾃｱa,"Ferrera, Sevillano and Noriega",Maxime,2015,Pﾃｺrpura,2028-01-28,639.78,2025-02-02,2026-11-13,"Puerta, Uribe and Espada",Franco and Sons,Raquel Emelina Morcillo Sala,Variable,False
-SUV,8190AOD,RJSZVLIOJNPDMWOAF,Propio,Activo,Gas,http://varela.es/,Toledo,Espaﾃｱa,Alegria and Sons,Vitae,2001,ﾃ肱digo,2026-06-28,767.9,2023-09-23,2027-01-03,Valenciano Inc,Garay Inc,Camila Angelina Rubio Poza,Variable,False
-SUV,3000MDM,ZUHMKDDRGBJUHNKKV,Renting,Taller,Elﾃｩctrico,https://www.campoy.net/,Toledo,EEUU,Adadia Group,Officiis,2023,Verde oscuro,2027-04-22,379.68,2024-04-29,2026-03-13,Bartolomﾃｩ PLC,"Gabaldﾃｳn, Salazar and Escolano",Raquel Emelina Morcillo Sala,Variable,True
-Turismo,0735DKC,DSQNEQEFDGHLUFHUJ,Propio,Inactivo,Gas,http://acuna-fonseca.com/,Lugo,EEUU,"Carrera, Navarro and Valenciano",Quas,2022,Verde mar claro,2027-01-23,1036.65,2023-07-01,2026-04-14,Estevez LLC,"Blanca, Azcona and Flor",Rosalina Guillen Arcos,Fijo,False
-SUV,0838XWG,FUQFISNNGDTEHSXVD,Propio,Inactivo,Diesel,http://www.hervas.es/,Las Palmas,Marruecos,"Vizcaﾃｭno, Piﾃｱeiro and Menendez",Id,2019,Gris mate,2026-02-19,559.29,2024-11-05,2026-02-24,Fortuny-Noguﾃｩs,Piﾃｱeiro Group,Tamara Duque Tamarit,Variable,False
-Turismo,3122NBN,EBFLGEZRHFGGSHYNP,Propio,Inactivo,Elﾃｩctrico,https://cabezas.com/,Salamanca,EEUU,Guillﾃｩn Inc,Distinctio,2021,Amarillo,2026-09-21,1087.25,2024-07-21,2026-11-29,Frﾃｭas PLC,"Alberdi, Echeverrﾃｭa and Frutos",Cecilio Borja Peral,Fijo,False
-Furgoneta,7683KUZ,LQXPWLXOIAEVHLSEK,Renting,Activo,Gas,http://pardo.es/,Badajoz,Francia,Madrigal LLC,Necessitatibus,2005,Naranja,2026-05-21,899.71,2024-10-29,2026-10-30,Sﾃ｡enz Inc,"Carbﾃｳ, Carbﾃｳ and Andrﾃｩs",Ramiro Estevez-Caﾃｱete,Variable,False
-Turismo,3561WHH,MHKQMPNPRIGPSSNYF,Propio,Taller,Diesel + ADV,https://tovar-cueto.com/,Melilla,Alemania,Iglesia Ltd,Quis,2016,Blanco lino,2025-12-22,712.39,2023-11-24,2025-11-11,Caﾃｱizares-Melﾃｩndez,Pizarro Ltd,Cintia Catalﾃ｡ Campillo,Fijo,False
-Turismo,4899NDT,VXIRELTBRNOGLLSXZ,Renting,Activo,Diesel,http://agustin.com/,Ourense,Alemania,"Ballester, Puente and Ruiz",Quaerat,2000,Orquﾃｭdea medio,2028-01-10,747.78,2023-10-31,2025-12-05,Malo PLC,"Caparrﾃｳs, Linares and Almansa",Gerardo Grau-Valenzuela,Variable,True
-SUV,4772SDU,MWTNFIPRDKRIOLOFH,Propio,Inactivo,Gas,https://www.alcantara-tejero.es/,Alicante,Mexico,Niﾃｱo-Pujol,Inventore,2003,Azul cielo,2026-07-18,521.08,2024-06-20,2026-09-15,Torrecilla-Benﾃｭtez,Amo Ltd,Delfina Flor Pol,Fijo,False
-Turismo,8041YBH,KETNIEQCCJRWQISPC,Propio,Activo,Diesel + ADV,https://alegria.es/,Salamanca,Francia,"Vera, Elorza and Correa",Voluptas,2001,Azul claro,2027-11-25,789.61,2023-07-10,2026-06-01,Cuesta-Llabrﾃｩs,Escolano Ltd,Fernando Rebollo Ripoll,Fijo,True
-Furgoneta,1647CPN,KIFVZZXRKVLZUYTWV,Propio,Inactivo,Diesel,http://blasco-alsina.es/,Santa Cruz de Tenerife,Francia,"Durﾃ｡n, Gallo and Boix",Dolores,2022,Amarillo dorado pﾃ｡lido,2026-05-18,1035.07,2024-03-21,2026-12-01,Juliﾃ｡ PLC,"Tenorio, Machado and Aroca",Griselda Girona-Zabaleta,Variable,False
-SUV,0106KZJ,TSNNVLHOMGENLFYMS,Renting,Taller,Gas,http://www.carmona-bas.es/,Ourense,Francia,Navarro Ltd,Eum,2012,Verde azulado,2027-11-27,1180.57,2023-11-12,2027-03-02,Vigil-Marﾃｭn,"Blanca, Azcona and Flor",Inmaculada Huertas Alfonso,Variable,True
-SUV,2765SLL,HLQVBRSAYNJDWHTZY,Renting,Inactivo,Diesel,https://www.pinto.com/,ﾃ〕ava,Marruecos,Rodriguez-Garrido,Sequi,2018,Azul pizarra medio,2028-02-27,532.0,2024-07-05,2025-06-10,Santiago LLC,Amo Ltd,Lisandro Zamora-Mﾃｭnguez,Fijo,False
-Furgoneta,7781MVL,VRILGBMAYQBMWHNEM,Renting,Activo,Diesel,https://villena.com/,La Rioja,Marruecos,"Camps, Madrigal and Castell",Vitae,2011,Rojo,2027-04-08,617.9,2023-08-12,2025-10-30,Bustamante Group,Vilalta and Sons,Dominga Amo Salvador,Fijo,False
-Turismo,4999FWG,MMJJTZCGADHERJDCM,Renting,Taller,Diesel,http://www.carrillo.es/,Sevilla,EEUU,Barros Group,Mollitia,2014,Orquﾃｭdea pﾃｺrpura oscuro,2027-08-05,748.32,2023-10-20,2025-05-29,Bartolomﾃｩ-Roldﾃ｡n,Piﾃｱeiro Group,Florencio Raya Cardona,Fijo,True
-SUV,0218GJV,IKGUDHWUMBFUIGAAR,Renting,Activo,Diesel + ADV,https://cifuentes.com/,Alicante,Mexico,"Melero, Tamarit and Villaverde",In,2006,Ciruela,2026-12-20,342.04,2023-11-25,2025-06-18,"Morata, Fortuny and Reina","Tenorio, Machado and Aroca",Rosario Ros Anaya,Fijo,True
-SUV,1144BDQ,LUKALDGFBCBRUMMUH,Propio,Activo,Elﾃｩctrico,https://www.montserrat.com/,Albacete,Italia,"Pavﾃｳn, Bermﾃｺdez and Sancho",Autem,2007,Blanco concha,2026-09-11,820.35,2024-10-30,2027-02-18,Mendizﾃ｡bal-Nieto,Royo-Valbuena,Abigaﾃｭl Piedad Mur Borrego,Fijo,True
-SUV,0578RXU,JSBBRCFHXUFHVETUW,Renting,Inactivo,Gas,https://belda-falcon.com/,Salamanca,Espaﾃｱa,Cerdﾃ｡-Noguera,Vel,2002,Marrﾃｳn madera rﾃｺstica,2026-10-09,336.77,2024-05-07,2027-01-06,Taboada-Fuente,"Tamayo, Padilla and Rozas",Milagros Cﾃｳzar,Fijo,True
-Furgoneta,8633EZB,QQPGFERRCOVADKCSY,Renting,Inactivo,Gas,http://maldonado-luis.com/,Asturias,Francia,Lledﾃｳ-Espada,Vero,2014,Azul Alicia,2025-11-17,509.27,2023-07-23,2025-04-26,Luﾃｭs Inc,"Enrﾃｭquez, Azcona and Valentﾃｭn",Patricio Marcial Niﾃｱo Cuervo,Variable,True
-SUV,0998PKN,LMOQWSLWDAJUQKPTE,Propio,Inactivo,Elﾃｩctrico,https://falco-novoa.com/,Navarra,Espaﾃｱa,Llano-Sarabia,Consequatur,2015,Azul acero claro,2026-03-29,618.92,2024-03-12,2025-09-09,Zamorano LLC,Ortiz LLC,Ricarda Carvajal,Fijo,True
-Furgoneta,9792FIV,EFLLELATQDSTTBOFZ,Propio,Inactivo,Gas,http://padilla.es/,Navarra,Espaﾃｱa,Ibaﾃｱez Ltd,Delectus,2019,Chocolate,2027-02-16,594.44,2023-05-31,2025-07-23,Morell-Bonilla,Feijoo-Valbuena,Fortunata Abril-Ferrﾃ｡ndiz,Variable,True
-Furgoneta,0890DXN,YRRRDBBADMDFMOGIR,Renting,Inactivo,Elﾃｩctrico,https://www.real-jordan.org/,Cantabria,Francia,"Zamora, Caﾃｱellas and Corominas",Beatae,2023,Gris claro,2027-05-13,981.88,2025-04-02,2026-07-06,Catalﾃ｡-Cueto,Puig-Blazquez,Gerardo Grau-Valenzuela,Fijo,True
-SUV,5778VHR,PVYYYTNSSWTICEJTI,Renting,Taller,Gas,http://lobo.es/,ﾃ」ila,Francia,"Aragﾃｳn, Nicolﾃ｡s and Cerdﾃ｡n",Adipisci,2008,Verde claro,2026-04-13,689.59,2025-01-10,2026-11-21,"Camps, Navarrete and Godoy",Guitart LLC,Lisandro Jose Antonio Martﾃｭnez Ponce,Fijo,True
-Furgoneta,6767IIW,WMBJOJSREYXAJLNDG,Renting,Inactivo,Diesel + ADV,http://www.montes.es/,Alicante,Mexico,Pablo-Barriga,Enim,2004,Azul,2025-08-09,968.03,2024-07-09,2026-07-03,Amo PLC,Manzano Inc,Tomﾃ｡s Sanabria Castilla,Variable,True
-Furgoneta,6143UNS,GQFAMGXQANEJVHOVC,Renting,Inactivo,Elﾃｩctrico,http://www.priego-chaparro.com/,Guipﾃｺzcoa,Alemania,Armas PLC,Occaecati,2011,Plata,2026-03-16,874.06,2025-01-09,2025-11-28,Ochoa-Polo,"Garmendia, Quevedo and Gﾃｳmez",Celestino Tello Ruiz,Variable,False
-SUV,1534AOZ,ASVCBGWOLXIYIJGVK,Propio,Taller,Gasolina,http://llorens.org/,Ciudad,Mexico,"Heredia, Bonet and Molins",Accusamus,2020,Blanco lavanda,2027-05-19,749.31,2023-05-15,2026-08-17,"Herrero, Escamilla and Mayoral",Cﾃｳzar-Carreras,Eulalia Montalbﾃ｡n-Iﾃｱiguez,Variable,True
-Turismo,4912WXT,NOKSQUACBMHCOOMFB,Renting,Inactivo,Gasolina,https://palau-cantero.es/,Zamora,Mexico,"Chico, Armas and Rﾃｳdenas",Assumenda,2004,Amarillo claro,2027-11-17,867.02,2024-01-18,2026-09-15,Expﾃｳsito-Seco,Santamaria PLC,Eladio Sala Angulo,Fijo,False
-SUV,9049GCB,FTDGVJRWYANJJOHLK,Propio,Taller,Gasolina,http://www.simo.com/,Las Palmas,EEUU,Cazorla Group,Veniam,2008,Azul cielo profundo,2027-09-06,641.36,2024-07-25,2025-07-21,Estrada-Carrillo,Pino-Luna,Inmaculada Huertas Alfonso,Variable,True
-Furgoneta,6539ZPQ,KNYQPOLGTQWNVVVIK,Renting,Taller,Gasolina,http://www.font.es/,Pontevedra,Italia,Garcia Ltd,Amet,2002,Gris pizarra oscuro,2027-03-13,1057.28,2025-03-12,2026-02-19,Caﾃｱizares PLC,Roldan-Botella,Wﾃ｡lter Zurita Leon,Variable,False
-Furgoneta,4380JCZ,EPUWBMUUHUKCZJOZD,Propio,Inactivo,Diesel + ADV,http://mir.es/,Tarragona,Alemania,"Giralt, Palmer and Bayona",Quos,2009,Magenta,2027-05-07,1045.89,2023-11-19,2026-09-11,"Angulo, Pedrero and Paredes",Pino-Luna,Duilio Checa-Ibaﾃｱez,Variable,False
-SUV,1205ZIN,WKIELGGPAWKHCFRZC,Renting,Taller,Gasolina,https://www.ferrera-amoros.com/,Tarragona,Mexico,Gimﾃｩnez and Sons,Ex,2019,Lavanda,2026-11-05,386.41,2024-12-04,2026-08-20,Fﾃ｡bregas Group,Esteve Ltd,Ale Maza,Variable,True
-Furgoneta,0375IAP,DUIOIKMASNLIPTVGU,Propio,Activo,Gasolina,https://castrillo.es/,Albacete,Francia,"Barragﾃ｡n, Mariscal and Arnau",Necessitatibus,2012,Verde mar,2026-09-25,592.4,2025-03-26,2026-09-14,"Berenguer, Castellanos and Romﾃ｡n",Pino-Luna,Andrﾃｩs Iﾃｱiguez-Navarro,Variable,True
-Turismo,1855MVQ,TBDGEMNUGLFDYRQIK,Renting,Activo,Diesel + ADV,http://borrell-zurita.com/,Teruel,Italia,Miguel-Lledﾃｳ,Amet,2010,Rojo oscuro,2027-05-24,527.59,2024-12-05,2025-06-15,Barros-Saavedra,Coello PLC,Cruz del Cerezo,Variable,False
-Turismo,7821QWL,KPOQCRPZQHUAWQWIA,Propio,Taller,Gas,http://mulet-ferrando.com/,Murcia,Mexico,Peral-Villaverde,Placeat,2019,Azul pizarra,2027-05-15,530.26,2023-08-16,2025-06-12,Muro Ltd,Santamaria PLC,Adelaida Chus Fuentes Escudero,Variable,False
-Furgoneta,6698RDM,OUYBYPEKDUJHIFJTQ,Propio,Inactivo,Gas,https://julia.com/,Ourense,Espaﾃｱa,Peralta Ltd,Minima,2013,Naranja oscuro,2028-02-01,444.76,2023-05-30,2026-03-08,Amo Inc,Bﾃ｡rcena-Riera,Gerardo Grau-Valenzuela,Fijo,True
-Turismo,4479VCV,HAIUFIKBPNCHIDTWH,Renting,Taller,Diesel + ADV,http://isern.es/,Cﾃ｡ceres,Marruecos,"Feijoo, Palacios and Aznar",Omnis,2002,Blanco,2025-12-24,929.11,2025-03-29,2026-12-21,"Hoz, Isern and Sala",Azorin Group,Paulina Iborra Iniesta,Variable,True
-Turismo,7473PFL,SOVCOUXHNEVXAXNAM,Renting,Inactivo,Diesel,http://www.bernal.es/,Navarra,Espaﾃｱa,Alfonso-Castillo,Ad,2022,Amarillo claro,2025-04-13,674.63,2024-11-22,2025-09-18,Ferrﾃ｡n-Vara,Ortiz LLC,Dominga Amo Salvador,Fijo,True
-Turismo,5388BHA,ZQDHYGZGSXITYCGLR,Renting,Taller,Gasolina,https://costa-sierra.com/,Melilla,Marruecos,Escribano-Valentﾃｭn,Numquam,2022,Ciruela,2025-04-11,818.1,2023-12-31,2026-08-03,Pﾃ｡ez Inc,Benito and Sons,Alcides Villalba Peﾃｱa,Fijo,True
-Turismo,9960CVJ,BVUQIZPPWDBMZJTHM,Propio,Activo,Diesel,https://huguet-tovar.es/,Ciudad,Francia,Sﾃ｡ez and Sons,Asperiores,2020,Azul pizarra,2026-01-19,764.6,2024-12-02,2025-05-02,Benito Group,Puig-Blazquez,Susanita Domﾃｭnguez Blasco,Variable,False
-Turismo,3858TXC,RJMYFEBPTSFIPZXKS,Renting,Taller,Diesel + ADV,http://www.olmo.org/,Valladolid,Marruecos,"Sevillano, Esteban and Pera",Sint,2004,Cian,2025-06-28,701.67,2023-06-20,2026-12-04,Ferreras-Salazar,"Egea, Caparrﾃｳs and Rodriguez",Priscila Luz Navarro,Variable,False
-Turismo,9551VIQ,MCQNNTRZLPFOJLCDR,Renting,Activo,Diesel,https://www.marino.org/,Guadalajara,Italia,Jerez-Codina,Harum,2012,Verde azulado,2027-02-21,667.95,2023-05-07,2026-08-02,"Toledo, Cuervo and Blanco",Benito and Sons,Adelia Garriga Benavides,Variable,True
-Furgoneta,7052ZPC,JCEGWHRVYPPDYELRL,Propio,Taller,Diesel,http://www.sole.com/,Cﾃ｡ceres,EEUU,Nieto-Ripoll,Explicabo,2013,Chocolate,2027-07-22,669.95,2023-04-11,2027-03-10,Pino Ltd,Moll-Carranza,Rosalina Guillen Arcos,Variable,False
-Turismo,8709WMZ,ZNIRIGQXXERXBKKPK,Propio,Activo,Diesel + ADV,http://alvaro.org/,La Rioja,Francia,Sanmartﾃｭn Inc,Harum,2014,Amarillo claro,2026-11-17,782.21,2023-10-01,2026-11-29,Cuevas-Maza,"Pujol, Martﾃｭnez and Guillﾃｩn",Florencio Raya Cardona,Fijo,False
-Furgoneta,5304PTF,OZULYSGQZQWHTTNBA,Propio,Activo,Diesel,https://www.benavente-montes.net/,Zaragoza,Espaﾃｱa,Bﾃ｡rcena-Calderﾃｳn,Illum,2008,Rojo violeta medio,2027-12-08,312.48,2025-02-12,2027-03-26,"Toro, Pina and Aguilﾃｳ",Bueno Inc,Cecilio Borja Peral,Variable,True
-Furgoneta,8219ALH,FNKSNIVCHWMIYXCIE,Renting,Inactivo,Gasolina,http://www.verdugo.com/,Tarragona,Espaﾃｱa,Arce Ltd,Itaque,2016,Marrﾃｳn,2027-05-14,382.17,2023-06-28,2026-07-26,Ferrando PLC,Vilalta and Sons,Florencio Raya Cardona,Fijo,True
-Turismo,7749OBW,LGCJJNAWRVEGPLVMF,Propio,Taller,Diesel,https://planas-pedraza.es/,Barcelona,Mexico,"Madrid, Leiva and Perea",Fugit,2016,Rojo anaranjado,2028-02-01,750.83,2024-08-13,2025-07-05,Almansa Ltd,Rodrﾃｭguez-Montesinos,Raquel Emelina Morcillo Sala,Fijo,False
-Furgoneta,2598RAI,JGMWCZPWHHORZSUBE,Renting,Activo,Diesel + ADV,https://www.rios.net/,Alicante,Marruecos,"Ruiz, Zabala and Vﾃｩlez",Facilis,2009,Coral claro,2028-02-07,428.97,2025-03-27,2026-03-13,Revilla-Mosquera,Guitart LLC,Adoraciﾃｳn Barreda Durﾃ｡n,Fijo,False
-Turismo,1814YLN,SSYEIZBLAFWDPOQNP,Propio,Inactivo,Gasolina,https://velez.es/,La Coruﾃｱa,EEUU,Linares-Jaume,Vitae,2015,Verde mar medio,2026-06-20,327.57,2024-09-23,2025-07-01,Gallego-Sevilla,Pujadas and Sons,Valero Cﾃｩspedes Francisco,Variable,True
-Turismo,3143ZIZ,MZDGBXSCZFTSJBAZT,Propio,Activo,Diesel + ADV,https://exposito-suarez.com/,Pontevedra,Marruecos,Calzada-Abellﾃ｡n,Quasi,2019,Agua-marina,2026-02-12,553.03,2024-04-06,2025-07-04,"Olivera, Landa and Mﾃｭnguez",Amador Inc,Victorino Velasco-Domingo,Fijo,False
-Furgoneta,7456RIT,MSOXDVBTTXDNDHEIC,Propio,Activo,Gasolina,http://sanz.es/,Madrid,EEUU,Vizcaﾃｭno Inc,Animi,2021,Blanco navajo,2026-03-17,585.2,2024-05-10,2027-03-06,"Cuevas, Bosch and Valcﾃ｡rcel",Aragﾃｳn Ltd,Esther Frutos Blazquez,Variable,True
-Furgoneta,4533JDE,IHNVMQAUAEQDCMIFY,Renting,Inactivo,Elﾃｩctrico,https://www.saez-vazquez.es/,Guipﾃｺzcoa,Mexico,Gutiﾃｩrrez-Casares,Rem,2006,Gris mate,2026-07-13,1131.94,2025-02-16,2025-12-22,Aguilﾃｳ-Amorﾃｳs,Luque Inc,Tomﾃ｡s Sanabria Castilla,Fijo,True
-Turismo,1291UVQ,LCSRCSFFRLIHKMHBG,Renting,Taller,Diesel + ADV,https://martorell.com/,Cﾃ｡diz,Espaﾃｱa,Nicolau-Blﾃ｡zquez,Sed,2024,Azul,2027-04-24,825.76,2023-07-30,2025-07-08,Paz-Jimenez,"Enrﾃｭquez, Azcona and Valentﾃｭn",Malena Pulido Blasco,Variable,False
-Turismo,4052EAZ,FIORYSXXXFIYANZFA,Propio,Taller,Gas,http://www.plaza.org/,Ceuta,Mexico,"Garcﾃｭa, Luna and Azcona",Sint,2011,Turquesa medio,2025-10-04,700.11,2024-08-07,2026-04-05,Alfaro Ltd,Salinas-Ruiz,Hilario del Mariﾃｱo,Fijo,False
-Turismo,0315GCN,NQEROPDSVRMTWLDNK,Renting,Inactivo,Elﾃｩctrico,https://recio-crespi.es/,Ciudad,Mexico,"Pedrosa, Benet and Gimenez",Officia,2023,Azul acero claro,2025-06-02,471.34,2023-04-29,2027-02-20,Cabanillas PLC,"Egea, Caparrﾃｳs and Rodriguez",Susanita Domﾃｭnguez Blasco,Fijo,False
-SUV,0111BBU,CPJUOTWLPAYUNKOTD,Propio,Inactivo,Elﾃｩctrico,https://mayoral-alvarez.com/,Ceuta,Mexico,Marti PLC,Officiis,2009,Amarillo dorado oscuro,2027-03-09,941.51,2024-03-14,2025-04-20,"Portero, Hurtado and Osorio",Jerez LLC,Humberto Cortﾃｩs Giner,Fijo,False
-SUV,4319ZSD,WINOOPHQOBWGLZZOF,Propio,Taller,Elﾃｩctrico,http://www.olmo.org/,Melilla,Espaﾃｱa,Sainz Inc,Numquam,2014,Rosa profundo,2027-03-02,638.86,2025-02-08,2026-07-04,"Company, Castrillo and Llanos","Gabaldﾃｳn, Salazar and Escolano",Charo de Cortﾃｩs,Variable,False
-Turismo,2140CAX,XDYOSWEOCMSHSCXCI,Propio,Taller,Diesel,http://www.segovia.net/,Granada,Alemania,Tapia Group,Quisquam,2016,Orquﾃｭdea medio,2027-03-21,532.26,2024-05-01,2027-01-17,"Briones, Peinado and Torrecilla",Baena-Cerdﾃ｡,Eligia Carmona-Farrﾃｩ,Variable,False
-Turismo,8085RIZ,VLBVLYRQCAMARYSEU,Propio,Taller,Diesel + ADV,https://www.segura-cerdan.es/,Ceuta,Mexico,Burgos-Giralt,Molestiae,2016,Caqui oscuro,2027-11-14,493.54,2025-01-14,2026-08-18,Mariﾃｱo Ltd,Ruano-Gras,Humberto Cortﾃｩs Giner,Fijo,False
-Turismo,4826TDD,WKWCRFKZJYTEYQDZR,Propio,Activo,Gasolina,http://salazar.es/,Cﾃ｡ceres,Mexico,Teruel-Esparza,Quasi,2005,Amarillo dorado oscuro,2026-07-12,577.05,2025-04-07,2025-06-25,"Dﾃ｡vila, Corbacho and Zaragoza","Artigas, Avilﾃｩs and Codina",Griselda Girona-Zabaleta,Fijo,True
-Furgoneta,5405PVE,PIMNWDPKIUTQNLCOD,Propio,Activo,Diesel + ADV,https://santiago-gomez.com/,Zaragoza,Marruecos,"Morata, Bernat and Cerro",Occaecati,2014,Lavanda,2027-01-09,668.54,2023-09-27,2026-11-03,Martﾃｭ-Barral,"Maza, Quintana and Ibﾃ｡ﾃｱez",Esther Frutos Blazquez,Fijo,True
-Furgoneta,0944CHH,QDIGVKGJFNLNOJLCF,Renting,Inactivo,Elﾃｩctrico,https://coloma.es/,Segovia,Mexico,Arellano-Marin,Minus,2015,Blanco navajo,2026-04-28,974.3,2023-07-16,2026-10-18,Perellﾃｳ Ltd,"Caparrﾃｳs, Linares and Almansa",Abigaﾃｭl Piedad Mur Borrego,Variable,True
-Furgoneta,2439VXR,NWOOGLHJZPDOWUHBR,Propio,Taller,Diesel,https://www.espejo-saavedra.com/,Huelva,Italia,Palomares-Belda,Perspiciatis,2005,Cyan oscuro,2026-05-31,656.22,2025-03-21,2026-03-23,Montoya-Pacheco,Aragﾃｳn Ltd,Patricio Marcial Niﾃｱo Cuervo,Fijo,True
-Furgoneta,1074VAW,BGORLOJPALTDGTIVB,Renting,Taller,Elﾃｩctrico,https://www.armengol.net/,Alicante,Alemania,"Guijarro, Font and Rocha",Veritatis,2015,Amarillo dorado claro,2025-08-11,582.35,2024-10-29,2026-12-22,"Rico, Alberola and Amo","Borrﾃ｡s, Palomo and Piﾃｱa",Cebriﾃ｡n Sosimo Valdﾃｩs Campos,Fijo,False
-Turismo,8510PLZ,BUTFVZFBLZRQXTNHA,Renting,Inactivo,Gasolina,https://cortes.com/,Albacete,Alemania,Lorenzo-Fernandez,Quibusdam,2005,Gris,2027-02-02,1189.45,2023-04-13,2026-02-25,"Roldan, Alba and Balaguer",Benﾃｭtez PLC,Tristﾃ｡n Rozas Egea,Variable,True
-Furgoneta,8560IAB,EUSHWCKNXLHQKNKJI,Renting,Activo,Gasolina,http://bru.es/,Valencia,Mexico,Gallardo Ltd,Aliquam,2023,Almendra blanqueado,2026-09-26,1121.38,2023-11-13,2026-04-10,"Aller, Nﾃｺﾃｱez and Llorente",Aragﾃｳn Ltd,Ricarda Carvajal,Fijo,True
-Turismo,5876WCL,YHBIWCRLFCYYOMRXY,Propio,Inactivo,Diesel + ADV,https://segura.com/,Ceuta,Italia,Pont Ltd,Minus,2012,Verde,2025-09-18,442.46,2024-03-10,2026-08-09,Valdﾃｩs-Luﾃｭs,"Quintero, Guillen and Bejarano",Tamara Duque Tamarit,Fijo,False
-SUV,2172SLG,LDXZHLTFMKQXIADSV,Renting,Activo,Diesel + ADV,http://gonzalez-giron.es/,La Coruﾃｱa,Marruecos,"Roldﾃ｡n, Reina and Huerta",Suscipit,2021,Orquﾃｭdea pﾃｺrpura oscuro,2028-01-27,915.92,2024-02-20,2025-08-26,Cardona PLC,"Blanca, Azcona and Flor",Dominga Amo Salvador,Variable,False
-Furgoneta,7142IUS,OEJLYGDBIHDLOWGGX,Propio,Inactivo,Diesel,http://www.real-vara.com/,Huesca,Mexico,Alberola Group,Impedit,2007,Rojo indio,2027-12-30,1154.89,2023-11-05,2025-05-12,Bustamante PLC,Moliner Ltd,Camilo Peinado Agustﾃｭn,Variable,True
-SUV,3779AAP,ADNDESMCEFBVNIYXD,Propio,Inactivo,Gasolina,http://www.folch-bayon.net/,Las Palmas,Italia,Osuna Group,Beatae,2024,Chocolate,2026-07-31,1061.68,2023-07-28,2025-12-26,"Barrio, Taboada and Madrigal","Acero, Amaya and Jerez",Fortunata Abril-Ferrﾃ｡ndiz,Variable,True
-SUV,8797RET,WMEAABKQOIQTIRTZF,Propio,Activo,Diesel + ADV,http://cordoba.org/,Zamora,Espaﾃｱa,Berenguer Ltd,Ratione,2012,Azul,2027-12-03,585.48,2024-12-05,2026-06-10,Calvo and Sons,Manjﾃｳn-Olmo,Duilio Checa-Ibaﾃｱez,Fijo,True
-SUV,0174JDU,ESCWUYDFIXQVFCRUR,Propio,Inactivo,Diesel,https://gallego-ferreras.es/,Huesca,Francia,Vargas Ltd,Assumenda,2009,Blanco navajo,2028-04-03,1071.89,2024-10-25,2025-05-14,"Batalla, Moya and Cuevas",Pino-Luna,Wﾃ｡lter Zurita Leon,Variable,True
-SUV,3721GYW,XRWPRLVCXUUFCBIYW,Propio,Activo,Elﾃｩctrico,https://www.arnal-alarcon.es/,Granada,Marruecos,"Romeu, Sola and Zaragoza",Aliquid,2024,Naranja,2028-01-09,624.17,2023-12-11,2027-03-15,"Leon, Escolano and Palomino",Vilalta and Sons,ﾃ嗷sula Gomez Goﾃｱi,Fijo,True
-Furgoneta,0040YVY,JUSPVZTXXBETHVSFQ,Renting,Inactivo,Gas,http://www.azorin.net/,Toledo,Francia,"Prado, Escolano and Beltrﾃ｡n",Repellat,2016,Azul cadete,2026-05-13,831.2,2024-06-28,2026-08-25,Peﾃｱa-Rodrﾃｭguez,Moliner Ltd,Adelaida Chus Fuentes Escudero,Fijo,True
-Turismo,8095GCT,PBNMTAWZZHCIBRUCI,Propio,Inactivo,Diesel,https://roman.es/,Tarragona,Alemania,Izquierdo-Segovia,Aut,2002,Blanco,2026-05-26,492.6,2023-08-04,2025-06-04,Salom Group,Manzano Inc,Isaura Tomﾃ｡s Gomez,Variable,True
-Turismo,6609RHE,NTWZHQGIPNJAYUHBM,Propio,Taller,Gas,https://pena.com/,La Rioja,Espaﾃｱa,Saavedra-Leﾃｳn,Culpa,2024,Rojo violeta medio,2025-10-08,888.35,2024-06-25,2025-06-22,Cardona PLC,Cﾃｳzar-Carreras,Pilar Dﾃｭaz Gutiﾃｩrrez,Variable,False
-Turismo,3285OCV,FLQJJBEOGPYQMVJNO,Renting,Activo,Gas,https://carballo.es/,Las Palmas,Marruecos,Moraleda-Merino,Sed,2008,Marrﾃｳn cuero,2027-06-17,686.96,2023-07-07,2026-12-23,"Rivas, Noguera and Pombo",Sola-Caﾃｱizares,Adoraciﾃｳn Barreda Durﾃ｡n,Fijo,True
-Turismo,0431SBO,VPDWXEGBJDTIZZROG,Propio,Activo,Gasolina,https://www.barcelo.com/,Ceuta,Italia,"Quintero, Laguna and Angulo",Ex,2007,Azul cielo profundo,2027-04-19,675.64,2024-04-19,2026-10-01,Sierra-Marﾃｭ,Baena-Cerdﾃ｡,Dominga Amo Salvador,Variable,True
-SUV,0708UDK,HHBZKXMVYSFJETDJO,Propio,Taller,Gas,http://figuerola.net/,Pontevedra,EEUU,Sﾃ｡nchez Group,Cupiditate,2022,Cian,2027-03-13,558.71,2024-03-25,2026-10-07,"Villalba, Nieto and Marti",Aroca PLC,Guillermo Lasa Echevarrﾃｭa,Fijo,True
-SUV,7439RDO,JSDLFVYXJFXEHIWAH,Propio,Activo,Gas,http://acedo.es/,Lleida,Alemania,Camps-Riquelme,Rerum,2015,Cyan oscuro,2027-02-28,617.25,2024-11-02,2027-02-01,"Hoz, Sanz and Espejo",Pizarro Ltd,Griselda Girona-Zabaleta,Fijo,True
-Furgoneta,8239JGK,JTCPSGNBSFVNJSIMO,Propio,Activo,Diesel,http://www.carreno.es/,ﾃ」ila,Alemania,Navas-Lujﾃ｡n,Ex,2013,Rojo violeta medio,2027-11-22,657.34,2023-09-14,2027-02-11,Coloma PLC,"Quintero, Guillen and Bejarano",Manuel Villalonga Tﾃｩllez,Variable,True
-Furgoneta,8509RRW,USKLUAQUEYSSTEXAE,Renting,Inactivo,Gasolina,https://gibert.com/,Guipﾃｺzcoa,Mexico,Canet Inc,Repudiandae,2017,Rojo violeta medio,2028-02-12,611.34,2023-12-23,2025-12-31,Murillo-Bustos,Barral Inc,Jonatan Bruno Piﾃｱeiro Cantero,Variable,False
-Turismo,9321ETT,SHFWEFIYOUZOPBOUK,Renting,Taller,Gas,https://www.rivas-bernal.net/,Salamanca,Marruecos,Matas-Bas,Corporis,2009,Blanco lavanda,2026-11-06,927.85,2025-01-07,2027-01-18,Nﾃｺﾃｱez PLC,Hernﾃ｡ndez and Sons,Priscila Luz Navarro,Fijo,False
-Turismo,6210XYM,MISZRKSTIAORQSRKR,Renting,Inactivo,Diesel + ADV,http://mercader-tenorio.es/,Pontevedra,Espaﾃｱa,Colomer-Cantﾃｳn,Molestiae,2018,Verde lima,2026-09-05,1112.24,2024-01-12,2025-07-01,"Rosado, Domﾃｩnech and Marin",Amo Ltd,Adelia Garriga Benavides,Fijo,True
-SUV,9470NUR,GCPDDUDMLCPYYJNZG,Renting,Inactivo,Diesel + ADV,https://www.laguna-pinol.net/,Teruel,Alemania,"Ibaﾃｱez, Tamarit and Machado",Explicabo,2021,Gris pizarra oscuro,2026-04-10,806.88,2024-02-18,2025-05-03,Godoy-Alsina,Feijoo-Valbuena,Cruz del Cerezo,Fijo,True
-Furgoneta,7445EIA,JZZTEMASZUWVDPISI,Propio,Activo,Elﾃｩctrico,https://prada-arnau.com/,Castellﾃｳn,Mexico,Casanovas-Casanovas,Nihil,2015,Azul pizarra medio,2027-11-17,802.23,2023-07-27,2025-09-15,Zabala and Sons,"Tamayo, Padilla and Rozas",Cecilio Borja Peral,Fijo,False
-SUV,0494XJP,MEXDTRVNQMLTSWLZX,Renting,Inactivo,Diesel,https://www.borja.org/,Burgos,EEUU,Marco Group,Asperiores,2018,Azul anciano,2026-07-28,783.39,2024-06-27,2025-12-19,Bayona LLC,Cﾃｳzar-Carreras,Arturo Coloma,Fijo,True
-Turismo,1584RKH,SVCTDVROQKYNMSMAX,Propio,Inactivo,Gas,http://www.trillo.es/,Lleida,Marruecos,Pinilla-Ordﾃｳﾃｱez,Cum,2008,Orquﾃｭdea pﾃｺrpura oscuro,2025-06-28,872.73,2023-08-29,2026-06-19,"Piﾃｱa, Jerez and Abril",Moliner Ltd,Victor Evaristo Rﾃｭos Verdﾃｺ,Variable,False
-SUV,2040LHJ,FXOQYNUCNZORBHYYB,Propio,Activo,Elﾃｩctrico,https://ballester.es/,Santa Cruz de Tenerife,EEUU,Ricart-Mancebo,Aperiam,2001,Verde claro,2027-02-09,392.32,2023-05-23,2025-04-13,Tejedor-Serra,Ortiz LLC,Carmina Plaza Mﾃ｡rquez,Fijo,False
-SUV,1005BVC,HTABKYNSQDAUPIWHG,Renting,Activo,Elﾃｩctrico,http://mascaro.com/,La Coruﾃｱa,Mexico,Segarra and Sons,Dolor,2000,Amarillo dorado oscuro,2028-03-24,1121.2,2023-11-02,2026-09-02,Lumbreras-Requena,"Pinilla, Bravo and Cantero",Isabela Mendizﾃ｡bal Blﾃ｡zquez,Variable,True
-SUV,5832BIJ,UVJKXJFCJUFNNIABT,Propio,Taller,Diesel + ADV,https://www.feliu.es/,ﾃ」ila,Mexico,"Agullo, Alcalﾃ｡ and Diego",Provident,2016,Pﾃｺrpura medio,2025-06-27,728.39,2023-12-16,2025-08-01,"Casanovas, Coronado and Cortina",Baena-Cerdﾃ｡,Florencio Raya Cardona,Variable,False
-Furgoneta,0963QJT,UBMUIHXUOUCZGPYLH,Renting,Inactivo,Gas,https://plaza.com/,Cﾃ｡diz,Italia,"Carrasco, Niﾃｱo and Parra",Voluptatem,2012,Rosa,2028-03-07,686.26,2024-01-16,2025-07-17,Ocaﾃｱa-Feijoo,Rosa-Valera,Paulina Iborra Iniesta,Variable,True
+tipoVehiculo;matricula;bastidor;estado;tipoCombustible;permisoCirculacionUrl;ciudad;Marca;Modelo;Anio;Color;fechaVigorItv;costeAlquilerMensual;fechaInicioContratoRenting;fechaFinContratoRenting;proveedor;conductor
+Turismo;0393MJL;3VWRC29M4Y0724979;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+SUV;3316GKM;2FTDF0739X1521830;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
+Furgoneta;1921HFK;9BWGR61J161375158;Activo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2025;Blanco;2025;800;1/1/25;1/1/29;My Renting;
+SUV;8219GNG;2G4WD512172226113;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
+Turismo;2292LGG;2G1WX22K2Y0686394;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+Turismo;6522CDC;1C3KC45K287329937;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+Furgoneta;4374BMJ;1GTEC69U327922455;Taller;Diesel + ADV;;Granada;;;;;2023;;;;;
+Turismo;8757GCB;1GCUGEFX8A1466298;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+SUV;7356BJF;1MELM55S5W6732878;Taller;Diesel + ADV;;Granada;kia;Niro;;;2023;;;;;
+SUV;9307CJL;1FDXW46R692428076;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
+SUV;8196NNF;5TDYK4CC6A4595434;Activo;Diesel + ADV;;Granada;kia;Niro;;;2023;;;;;
+Turismo;6620FBD;2GNALBEC1B4238124;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+Furgoneta;1635NJC;1GCRKSH35B7134377;Activo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2025;Blanco;2025;800;1/1/25;1/1/29;My Renting;
+SUV;2477NDL;1GDZ7WCL1B8535558;Inactivo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
+Turismo;3035HNG;WVWFD91KX92772297;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+Turismo;9543NMM;SHSRE485096574576;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+Turismo;5939JHB;1B7GG46NX38797142;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+SUV;1901FKL;3D7HV13PX97979432;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
+SUV;3616KNL;3GKGC668887625232;Activo;Diesel + ADV;;Granada;kia;Niro;;;2023;;;;;
+SUV;1089GNJ;1GNKR9DD2B7766412;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
+Turismo;1037LDG;JH4DC4359Y4613941;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+Furgoneta;0193DFN;1GNFC230194820819;Inactivo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Blanco;2023;800;;;;
+Furgoneta;7544FGM;2LMDJ6JK3B3778676;Inactivo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Blanco;2023;800;;;;
+Furgoneta;3318HGG;3D7KS26D685464279;Activo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2025;Blanco;2025;800;1/1/25;1/1/29;My Renting;
+SUV;4658DFM;1FTEX3CY9A3382904;Inactivo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
+Turismo;7597JMB;WBAWL1C58A4718482;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+Turismo;7344FLG;1GB2GWDG8A7558528;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+Furgoneta;4267LCF;1LNHM93R097624189;Activo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2025;Blanco;2025;800;1/1/25;1/1/29;My Renting;
+Turismo;9605FDD;1J4FZ78S0W4223634;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+SUV;2381HKG;1GCYKTE22A4731659;Activo;Diesel + ADV;;Granada;kia;Niro;;;;;;;;
+SUV;2289NGD;1GT524HL3B1538338;Activo;Diesel + ADV;;Granada;kia;Niro;;;;;;;;
+SUV;8089CKD;3GNUKKC37A0503275;Activo;Diesel + ADV;;Granada;kia;Niro;;;;;;;;
+Turismo;0802BHM;1G1JH15T828889813;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+Furgoneta;7535HBG;1GCFC29GX24968003;Activo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2025;Blanco;2025;800;1/1/25;1/1/29;My Renting;
+Turismo;0967BHH;5TETX4GN1B5277297;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+SUV;1554MDM;1FTEF14YXT9945383;Activo;Diesel + ADV;;Granada;kia;Niro;;;;;;;;
+SUV;0719GLG;1GNMCBE31A6943432;Activo;Diesel + ADV;;Granada;kia;Niro;;;;;;;;
+Turismo;0870HBG;1GAHG85F127896824;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+SUV;9856MCG;2GCFC19T959186591;Activo;Diesel + ADV;;Granada;kia;Niro;;;;;;;;
+SUV;7505HCF;1B7FL46N832153245;Activo;Diesel + ADV;;Granada;kia;Niro;;;;;;;;
+SUV;8690LMD;5TBBV541492291373;Activo;Diesel + ADV;;Granada;kia;Niro;;;;;;;;
+Turismo;8737KGJ;4A3AK34T996618543;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+Furgoneta;8737KGJ;3D3KR26A581774708;Inactivo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Blanco;2023;800;;;;
+Turismo;0638CML;1GDJP32Z6Y6235973;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+SUV;5522DNL;WVWDM9AJ0B9745718;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
+SUV;7269GGC;1G8ZX577X92883247;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
+SUV;5593GDH;2A4GP64L173578932;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
+Turismo;0993NDL;2G1FA1CD9B7556493;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+Furgoneta;2253BGC;3FTWW31P673882324;Inactivo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Blanco;2023;800;;;;
+Turismo;9148LBD;2GNALPDC2B3202916;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+SUV;0772NLB;JTEZU14R995847704;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
+SUV;4324DHB;2FMDK51C496651212;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
+SUV;8334JGB;1Z3HC28N777964379;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
+Turismo;2274GNM;1GCWGKBA4B5359767;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2023;650;1/1/25;1/1/30;KIA RENTING;
+Furgoneta;7434JCK;1GNSKCD0XB7458659;Activo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Blanco;2025;800;1/1/25;1/1/29;My Renting;
+SUV;1090MFM;1GBWGJBG6B5375231;Activo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;;;;;;;
+Turismo;7379HGC;2B4JB21X923581576;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2023;650;1/1/25;1/1/30;KIA RENTING;
+Furgoneta;9802JKG;1GMDX13E5Y2522421;Inactivo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Blanco;2023;800;;;;
+Turismo;8041JBM;1GTFH15T471331454;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2023;650;1/1/25;1/1/30;KIA RENTING;
+SUV;3705GNC;2D4GP34L433231709;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
+SUV;3950DCF;WAUAA88G8W4556590;Activo;Diesel + ADV;;Granada;kia;Niro;;;2023;;;;;
+SUV;5674HGC;1GCJTCBPXB6431159;Activo;Diesel + ADV;;Granada;kia;Niro;;;2023;;;;;
+Turismo;1073LNH;3GTEK64Z363765890;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2023;650;1/1/25;1/1/30;KIA RENTING;
+Furgoneta;9523GLC;1GTJK39D877869923;Activo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2025;Blanco;2025;800;1/1/25;1/1/29;My Renting;
+Furgoneta;4649BHC;WAUED28D3X1588376;Activo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2025;Blanco;2025;800;1/1/25;1/1/29;My Renting;
+Turismo;3171KLH;1FTBX2B65B5445614;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+SUV;9495FBF;1GKGG252676446925;Activo;Diesel + ADV;;Granada;kia;Niro;;;;;;;;
+SUV;0614NMH;1GTEC64V064919519;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
+Turismo;9505HBK;1GAGG29U039442815;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+SUV;9840BCD;3D3MR46D753682773;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
+SUV;6049MCN;1GNFC16F2X2315844;Activo;Diesel + ADV;;Granada;kia;Niro;2023;;2023;;;;;
+SUV;0701LMM;1GDS8CF40B2138976;Activo;Diesel + ADV;;Granada;kia;Niro;2023;;2023;;;;;
+Turismo;4060FCH;4M2EU38WX69777949;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+Furgoneta;0395MBH;3FTFF28Z8X9977434;Activo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Blanco;2025;800;1/1/25;1/1/29;My Renting;
+Turismo;0951DNG;1G6DN56SX54093718;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+SUV;3543LCD;1GCJTCB93B6533551;Activo;Diesel + ADV;;Granada;kia;Niro;2023;;;;;;;
+SUV;2845JKB;1GKES16P842444106;Activo;Diesel + ADV;;Granada;kia;Niro;2023;;;;;;;
+SUV;0725LBF;1GTP2TBA6B4526306;Activo;Diesel + ADV;;Granada;kia;Niro;;;;;;;;
+Turismo;6733BCD;3GNEC12Z464785456;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+Furgoneta;4989GDF;3VWTM31K693512992;Activo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2025;Blanco;2025;800;1/1/25;1/1/29;My Renting;
+Turismo;7690DLC;2GTHK34G041534244;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+SUV;5520JNL;1GCPCSC38B8373475;Activo;Diesel + ADV;;Granada;kia;Niro;;;;;;;;
+SUV;3101BHL;1D7KA28W538968763;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
+SUV;6566JCK;1FMCU22E1X2538784;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
+Turismo;2537HMB;1GKZ7YBG6B4253612;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+Furgoneta;2089HHM;2G1FA1CV5A7974685;Inactivo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Blanco;2023;800;;;;
+SUV;2287NJB;1GDHP322X93447490;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
+Turismo;9583BGF;1FDKE37S9X4602023;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+Furgoneta;5096HMG;JHMFA1E29B9195908;Inactivo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Blanco;2023;800;;;;
+SUV;5487NLH;2C8FJ253X19448774;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
+SUV;8333CJF;1FMFU165296716828;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
+Turismo;1046KJD;1FTHF20S4Y2236744;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+Furgoneta;3508LKG;1GTU1VB23B5134128;Inactivo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Blanco;2023;800;;;;
+Furgoneta;0047MKG;1FDGS24M1X9261752;Inactivo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Blanco;2023;800;;;;
+Turismo;8841LGL;1D3MU48W131256353;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+SUV;4239MCK;1B8GP15B121836273;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
+SUV;4975CLF;3B3MA38C035497997;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
+Turismo;1578FLG;1J8FT280387239247;Activo;El残trico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
+Furgoneta;9887LHM;WAUXL58DX48638898;Inactivo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Blanco;2023;800;;;;
+SUV;6943NNM;5N1AA08D991299533;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;

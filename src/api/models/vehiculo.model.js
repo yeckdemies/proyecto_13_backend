@@ -12,11 +12,6 @@ const vehiculoSchema = new mongoose.Schema({
     required: true
   },
   bastidor: String,
-  propiedad: {
-    type: String,
-    enum: ['Renting', 'Propio'],
-    required: true
-  },
   estado: {
     type: String,
     enum: ['Activo', 'Inactivo', 'Taller'],

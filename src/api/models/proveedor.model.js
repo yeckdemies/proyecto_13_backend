@@ -22,8 +22,7 @@ const proveedorSchema = new mongoose.Schema({
   email: String,
   telefono: String,
   razonSocial: String,
-  nif: String,
-  comentarios: String
+  nif: String
 }, {
   collection: 'proveedores',
   timestamps: true,toJSON: { virtuals: true },
