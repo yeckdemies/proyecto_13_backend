@@ -50,15 +50,15 @@ const vehiculoSchema = new mongoose.Schema({
   fechaFinContratoRenting: Date,
   proveedor: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'Proveedor'
+    ref: 'proveedores'
   },
   conductor: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'Conductor'
+    ref: 'conductores'
   }
 }, {
   collection: 'vehiculos',
   timestamps: true
 });
 
-module.exports = mongoose.model('Vehiculo', vehiculoSchema);
+module.exports = mongoose.model('vehiculos', vehiculoSchema, 'vehiculos');
