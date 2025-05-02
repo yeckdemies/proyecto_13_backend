@@ -13,9 +13,8 @@ const conductorRouter = express.Router();
 
 conductorRouter.get('/', isAuth, getAllConductores);
 conductorRouter.get('/:id', isAuth, getConductorById);
-
-conductorRouter.post('/', isAuth, isAdmin, createConductor);
-conductorRouter.put('/:id', isAuth, isAdmin, updateConductor);
-conductorRouter.delete('/:id', isAuth, isAdmin, deleteConductor);
+conductorRouter.post('/', [isAuth, isAdmin], createConductor);
+conductorRouter.put('/:id', [isAuth, isAdmin], updateConductor);
+conductorRouter.delete('/:id', [isAuth, isAdmin], deleteConductor);
 
 module.exports = conductorRouter;

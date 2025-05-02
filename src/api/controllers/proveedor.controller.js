@@ -24,6 +24,7 @@ const getProveedorById = async (req, res, next) => {
 const createProveedor = async (req, res, next) => {
   try {
     const newProveedor = new Proveedor(req.body);
+    console.log(newProveedor);
     const saved = await newProveedor.save();
     res.status(201).json(saved);
   } catch (error) {

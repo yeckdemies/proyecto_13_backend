@@ -1,21 +1,21 @@
 const mongoose = require('mongoose');
 
 const conductorSchema = new mongoose.Schema({
-  nombre: { type: String, required: true },
-  email: { type: String },
-  telefono: { type: String },
   dni: {
     type: String,
     required: true
   },
+  nombre: { type: String, required: true },
   fechaNacimiento: { type: Date },
-  direccion: String,
-  ciudad: String,
-  provincia: String,
+  telefono: { type: String },
+  email: { type: String, required: true},
+  direccion: { type: String, required: true},
+  ciudad: { type: String, required: true},
+  provincia: { type: String, required: true},
   codigoPostal: String
 }, {
   collection: 'conductores',
   timestamps: true
 });
 
-module.exports = mongoose.model('Conductor', conductorSchema);
+module.exports = mongoose.model('conductores', conductorSchema, "conductores");
