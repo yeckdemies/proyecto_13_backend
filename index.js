@@ -7,6 +7,7 @@ const userRouters = require('./src/api/routes/user.routes');
 const proveedorRoutes = require('./src/api/routes/proveedor.routes');
 const conductorRoutes = require('./src/api/routes/conductor.routes');
 const vehiculoRoutes = require('./src/api/routes/vehiculo.routes');
+const reservaRouter = require('./src/api/routes/reserva.routes');
 
 const app = express();
 
@@ -26,6 +27,7 @@ app.use('/api/v1/users', userRouters);
 app.use('/api/v1/proveedores', proveedorRoutes);
 app.use('/api/v1/conductores', conductorRoutes);
 app.use('/api/v1/vehiculos', vehiculoRoutes);
+app.use('/api/v1/reservas', reservaRouter);
 
 app.use('*', (req, res, next) => {
   return res.status(404).json('Route Not Found');

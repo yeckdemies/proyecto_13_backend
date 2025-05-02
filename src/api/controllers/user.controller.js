@@ -1,6 +1,8 @@
 const User = require('../models/user.model');
 const bcrypt = require('bcrypt');
 const { signGenerate } = require('../../helpers/jwt');
+const mongoose = require('mongoose');
+
 
 const getAllUser = async (req, res, next) => {
   try {
@@ -20,15 +22,20 @@ const getAllUser = async (req, res, next) => {
 
 const registerUser = async (req, res, next) => {
   try {
-    const { userName, email, password } = req.body;
-
+    const { userName, email, role } = req.body;
     const existingUser = await User.findOne({ $or: [{ userName }, { email }] });
 
     if (existingUser) {
       return res.status(400).json({ message: 'User or email already exists' });
     }
 
-    const newUser = new User({ userName, email, password, role: 'user' });
+    const newUser = new User({
+      userName,
+      email,
+      password: process.env.PASSWORD_DEFAULT,
+      role,
+      mustChangePassword: true
+    });
 
     const savedUser = await newUser.save();
 
@@ -59,18 +66,20 @@ const loginUser = async (req, res, next) => {
     }
 
     const isMatch = await bcrypt.compare(password, user.password);
+    console.log('Coincide:', isMatch);
 
     if (!isMatch) {
       return res.status(400).json({ message: 'Invalid password' });
     }
 
-    const token = signGenerate(user);
+    const token = signGenerate(user._id);
 
     const userWithoutPassword = {
       _id: user._id,
       userName: user.userName,
       email: user.email,
-      role: user.role
+      role: user.role,
+      mustChangePassword: user.mustChangePassword
     };
 
     return res.status(200).json({ user: userWithoutPassword, token });
@@ -136,7 +145,7 @@ const getCurrentUser = async (req, res, next) => {
   try {
     const userId = req.user._id;
 
-    const user = await User.findById(userId).populate('favourites');
+    const user = await User.findById(userId);
 
     if (!user) {
       return res.status(404).json({ message: 'User not found' });
@@ -151,32 +160,70 @@ const getCurrentUser = async (req, res, next) => {
   }
 };
 
-const deleteUser = async (req, res, next) => {
-  try {
-    const { userName } = req.body;
 
-    const userToDelete = await User.findOne({ userName });
+const deleteUser = async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    console.log('ID:', id);
+
+    if (!mongoose.Types.ObjectId.isValid(id)) {
+      return res.status(400).json({ message: 'Invalid user ID format' });
+    }
+
+    const userToDelete = await User.findById(id);
 
     if (!userToDelete) {
       return res.status(404).json({ message: 'User not found' });
     }
-    const isSelf = req.user._id.toString() === userToDelete._id.toString();
 
-    if (isSelf) {
+    if (req.user._id.toString() === userToDelete._id.toString()) {
       return res
         .status(403)
         .json({ message: 'You cannot delete your own user' });
     }
 
-    const userDeleted = await User.findByIdAndDelete(userToDelete._id);
+    await User.findByIdAndDelete(id);
 
     return res.status(200).json({
-      message: `User '${userDeleted.userName}' and related data deleted successfully`
+      message: `User '${userToDelete.userName}' deleted successfully`,
     });
   } catch (error) {
+    console.error('Error deleting user:', error);
     return res
       .status(500)
       .json({ message: 'Error deleting user', error: error.message });
+  }
+};
+
+
+const changePassword = async (req, res, next) => {
+  try {
+    const { newPassword } = req.body;
+
+    if (!newPassword) {
+      return res.status(400).json({
+        message: 'La nueva contraseña es obligatoria'
+      });
+    }
+
+    const user = await User.findById(req.user.id).select('+password');
+
+    if (!user) {
+      return res.status(404).json({ message: 'Usuario no encontrado' });
+    }
+
+    user.password = newPassword;
+    user.mustChangePassword = false;
+
+    await user.save();
+
+    return res.status(200).json({ message: 'Contraseña actualizada correctamente' });
+  } catch (error) {
+    return res.status(500).json({
+      message: 'Error al cambiar la contraseña',
+      error: error.message
+    });
   }
 };
 
@@ -187,4 +234,5 @@ module.exports = {
   updateUser,
   getCurrentUser,
   deleteUser,
+  changePassword
 };
