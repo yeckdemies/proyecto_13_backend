@@ -124,14 +124,6 @@ const comprobarDisponibilidad = async (req, res) => {
   try {
     let { id, vehiculo, conductor, fechaInicio, fechaFin } = req.body;
 
-    console.log('→ [comprobarDisponibilidad] Datos recibidos:', {
-      id,
-      vehiculo,
-      conductor,
-      fechaInicio,
-      fechaFin
-    });
-
     if (!fechaInicio || !fechaFin || !vehiculo || !conductor) {
       return res.status(400).json({
         message: 'Todos los campos son obligatorios: vehículo, conductor y rango de fechas.'
@@ -162,10 +154,8 @@ const comprobarDisponibilidad = async (req, res) => {
     };
 
     if (id && mongoose.Types.ObjectId.isValid(id)) {
-      filtroBase._id = { $ne: id }; // excluir la reserva actual si se edita
+      filtroBase._id = { $ne: id };
     }
-
-    console.log('→ [Filtro Base Fechas]', filtroBase);
 
     const vehiculoFiltro = { ...filtroBase, vehiculo };
     const conductorFiltro = { ...filtroBase, conductor };
@@ -174,13 +164,6 @@ const comprobarDisponibilidad = async (req, res) => {
       Reserva.exists(vehiculoFiltro),
       Reserva.exists(conductorFiltro)
     ]);
-
-    console.log('→ Resultado:', {
-      vehiculoFiltro,
-      vehiculoSolapado,
-      conductorFiltro,
-      conductorSolapado
-    });
 
     return res.status(200).json({
       success: true,

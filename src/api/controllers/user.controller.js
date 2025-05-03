@@ -1,4 +1,4 @@
-const User = require('../models/user.model');
+const User = require('../models/user.model');//
 const bcrypt = require('bcrypt');
 const { signGenerate } = require('../../helpers/jwt');
 const mongoose = require('mongoose');
@@ -66,7 +66,6 @@ const loginUser = async (req, res, next) => {
     }
 
     const isMatch = await bcrypt.compare(password, user.password);
-    console.log('Coincide:', isMatch);
 
     if (!isMatch) {
       return res.status(400).json({ message: 'Invalid password' });
@@ -164,8 +163,6 @@ const getCurrentUser = async (req, res, next) => {
 const deleteUser = async (req, res) => {
   try {
     const { id } = req.params;
-
-    console.log('ID:', id);
 
     if (!mongoose.Types.ObjectId.isValid(id)) {
       return res.status(400).json({ message: 'Invalid user ID format' });
