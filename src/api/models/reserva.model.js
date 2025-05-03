@@ -8,12 +8,12 @@ const reservaSchema = new mongoose.Schema({
   },
   vehiculo: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'Vehiculo',
+    ref: 'vehiculos',
     required: true
   },
   conductor: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'Conductor',
+    ref: 'conductores',
     required: true
   },
   fechaInicio: {
@@ -38,4 +38,4 @@ const reservaSchema = new mongoose.Schema({
   collection: 'reservas'
 });
 
-module.exports = mongoose.model('Reserva', reservaSchema, 'reservas');
+module.exports = mongoose.model('reservas', reservaSchema, 'reservas');
