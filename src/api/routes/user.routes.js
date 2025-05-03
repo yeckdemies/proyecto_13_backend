@@ -17,7 +17,7 @@ userRouter.get('/', [isAuth, isAdmin], getAllUser);
 userRouter.get('/me', isAuth, getCurrentUser);
 userRouter.post('/register', [isAuth, isAdmin], registerUser);
 userRouter.post('/login', loginUser);
-userRouter.put('/editUser', [isAuth, isAdmin], updateUser);
+userRouter.put('/:id', isAuth, updateUser);
 userRouter.delete('/deleteUser/:id', [isAuth, isAdmin], deleteUser);
 userRouter.put('/changePassword', isAuth, changePassword);
 

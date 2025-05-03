@@ -89,25 +89,33 @@ const loginUser = async (req, res, next) => {
   }
 };
 
-const updateUser = async (req, res, next) => {
+const updateUser = async (req, res) => {
   try {
     const { userName, email, password, role } = req.body;
-    const userId = req.user._id;
+    const userId = req.params.id;
     const isAdmin = req.user.role === 'admin';
 
-    const userToUpdate = await User.findOne({ userName });
+    const userToUpdate = await User.findById(userId);
 
     if (!userToUpdate) {
-      return res.status(404).json({ message: 'User not found' });
+      return res.status(404).json({ message: 'Usuario no encontrado' });
+    }
+
+    if (userToUpdate.isMasterUser) {
+      return res.status(403).json({ message: 'El usuario principal no se puede modificar' });
     }
 
     if (!isAdmin && req.user._id.toString() !== userToUpdate._id.toString()) {
       return res
         .status(403)
-        .json({ message: 'You do not have permission to modify this user' });
+        .json({ message: 'No tienes permisos para modificar este usuario' });
     }
 
     const changes = {};
+
+    if (userName && userName !== userToUpdate.userName) {
+      changes.userName = userName;
+    }
 
     if (email && email !== userToUpdate.email) {
       changes.email = email;
@@ -123,20 +131,20 @@ const updateUser = async (req, res, next) => {
     }
 
     if (Object.keys(changes).length === 0) {
-      return res.status(200).json({ message: 'No changes detected' });
+      return res.status(200).json({ message: 'No se han detectado cambios' });
     }
 
     Object.assign(userToUpdate, changes);
     await userToUpdate.save();
 
     return res.status(200).json({
-      message: 'User updated successfully',
+      message: 'Usuario actualizado correctamente',
       updatedFields: changes
     });
   } catch (error) {
     return res
       .status(500)
-      .json({ message: 'Error updating user', error: error.message });
+      .json({ message: 'Error al actualizar el usuario', error: error.message });
   }
 };
 
@@ -147,13 +155,13 @@ const getCurrentUser = async (req, res, next) => {
     const user = await User.findById(userId);
 
     if (!user) {
-      return res.status(404).json({ message: 'User not found' });
+      return res.status(404).json({ message: 'Usuario no encontrado' });
     }
 
     res.status(200).json(user);
   } catch (error) {
     res.status(500).json({
-      message: 'Error fetching user data',
+      message: 'Error al obtener el usuario',
       error: error.message
     });
   }
@@ -165,31 +173,35 @@ const deleteUser = async (req, res) => {
     const { id } = req.params;
 
     if (!mongoose.Types.ObjectId.isValid(id)) {
-      return res.status(400).json({ message: 'Invalid user ID format' });
+      return res.status(400).json({ message: 'Id incorrecto' });
     }
 
-    const userToDelete = await User.findById(id);
+    const userToDelete = await User.findById(req.params.id);
 
     if (!userToDelete) {
-      return res.status(404).json({ message: 'User not found' });
+      return res.status(404).json({ message: 'Usuario no encontrado' });
+    }
+
+    if (userToDelete.isMasterUser) {
+      return res.status(403).json({ message: 'El usuario principal no puede ser eliminado' });
     }
 
     if (req.user._id.toString() === userToDelete._id.toString()) {
       return res
         .status(403)
-        .json({ message: 'You cannot delete your own user' });
+        .json({ message: 'No te puedes eliminar a ti mismo' });
     }
 
     await User.findByIdAndDelete(id);
 
     return res.status(200).json({
-      message: `User '${userToDelete.userName}' deleted successfully`,
+      message: `El usuario '${userToDelete.userName}' ha sido eliminado correctamente`,
     });
   } catch (error) {
-    console.error('Error deleting user:', error);
+    console.error('Error eliminado el usuario:', error);
     return res
       .status(500)
-      .json({ message: 'Error deleting user', error: error.message });
+      .json({ message: 'Error eliminado el usuario:', error: error.message });
   }
 };
 

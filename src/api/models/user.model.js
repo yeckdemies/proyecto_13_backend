@@ -28,6 +28,10 @@ const userSchema = new mongoose.Schema(
     mustChangePassword: {
       type: Boolean,
       default: false
+    },
+    isMasterUser: {
+      type: Boolean,
+      default: false
     }
   },
   {
