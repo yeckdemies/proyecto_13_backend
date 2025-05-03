@@ -2,7 +2,7 @@ const { uploadToCloudinary } = require('../../helpers/uploadToCloudinary');
 const Vehiculo = require('../models/vehiculo.model');
 const Reserva = require('../models/reserva.model');
 
-const getAllVehiculos = async (req, res) => {
+const getAllVehiculos = async (req, res, next) => {
   try {
     const vehiculos = await Vehiculo.find()
       .populate('proveedor');
@@ -13,7 +13,7 @@ const getAllVehiculos = async (req, res) => {
   }
 };
 
-const getVehiculoById = async (req, res) => {
+const getVehiculoById = async (req, res, next) => {
   try {
     const vehiculo = await Vehiculo.findById(req.params.id)
       .populate('proveedor');
@@ -27,7 +27,7 @@ const getVehiculoById = async (req, res) => {
   }
 };
 
-const createVehiculo = async (req, res) => {
+const createVehiculo = async (req, res, next) => {
   try {
     const permisoCirculacionUrl = req.file
       ? await uploadToCloudinary(req.file.buffer)
@@ -64,7 +64,7 @@ const createVehiculo = async (req, res) => {
   }
 };
 
-const updateVehiculo = async (req, res) => {
+const updateVehiculo = async (req, res, next) => {
   try {
     let permisoCirculacionUrl;
 
@@ -110,7 +110,7 @@ const updateVehiculo = async (req, res) => {
   }
 };
 
-const deleteVehiculo = async (req, res) => {
+const deleteVehiculo = async (req, res, next) => {
   const { id } = req.params;
   const eliminarReservas = req.query.eliminarReservas === 'true';
 

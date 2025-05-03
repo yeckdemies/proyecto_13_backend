@@ -3,7 +3,6 @@ const bcrypt = require('bcrypt');
 const { signGenerate } = require('../../helpers/jwt');
 const mongoose = require('mongoose');
 
-
 const getAllUser = async (req, res, next) => {
   try {
     const users = await User.find().populate();

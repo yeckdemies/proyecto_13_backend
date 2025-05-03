@@ -4,7 +4,7 @@ const Conductor = require('../models/conductor.model');
 const mongoose = require('mongoose');
 const { comprobarSolapamientos, validarFechas } = require('../../helpers/reservas');
 
-const getReservas = async (req, res) => {
+const getReservas = async (req, res, next) => {
   try {
     const reservas = await Reserva.find().populate('vehiculo', 'matricula')
     .populate('conductor', 'nombre');
@@ -14,7 +14,7 @@ const getReservas = async (req, res) => {
   }
 };
 
-const getReservaById = async (req, res) => {
+const getReservaById = async (req, res, next) => {
   try {
     const reserva = await Reserva.findById(req.params.id)
       .populate('usuario', 'userName email')
@@ -31,7 +31,7 @@ const getReservaById = async (req, res) => {
   }
 };
 
-const crearReserva = async (req, res) => {
+const crearReserva = async (req, res, next) => {
   try {
     const { vehiculo, conductor, fechaInicio, fechaFin } = req.body;
     const usuario = req.user._id;
@@ -53,7 +53,7 @@ const crearReserva = async (req, res) => {
   }
 };
 
-const actualizarReserva = async (req, res) => {
+const actualizarReserva = async (req, res, next) => {
   try {
     const { fechaInicio, fechaFin, vehiculo, conductor, motivoCancelacion } = req.body;
     const { id } = req.params;
@@ -84,7 +84,7 @@ const actualizarReserva = async (req, res) => {
   }
 };
 
-const cancelarReserva = async (req, res) => {
+const cancelarReserva = async (req, res, next) => {
   try {
     const { id } = req.params;
     const { motivoCancelacion } = req.body;
@@ -105,7 +105,7 @@ const cancelarReserva = async (req, res) => {
   }
 };
 
-const eliminarReserva = async (req, res) => {
+const eliminarReserva = async (req, res, next) => {
   try {
     const { id } = req.params;
 
@@ -120,7 +120,7 @@ const eliminarReserva = async (req, res) => {
   }
 };
 
-const comprobarDisponibilidad = async (req, res) => {
+const comprobarDisponibilidad = async (req, res, next) => {
   try {
     let { id, vehiculo, conductor, fechaInicio, fechaFin } = req.body;
 
@@ -181,7 +181,7 @@ const comprobarDisponibilidad = async (req, res) => {
   }
 };
 
-const reactivarReserva = async (req, res) => {
+const reactivarReserva = async (req, res, next) => {
   try {
     const { id } = req.params;
 

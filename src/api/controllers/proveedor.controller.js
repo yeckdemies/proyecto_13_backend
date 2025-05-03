@@ -22,7 +22,7 @@ const getProveedorById = async (req, res, next) => {
   }
 };
 
-const createProveedor = async (req, res) => {
+const createProveedor = async (req, res, next) => {
   try {
     const nuevoProveedor = new Proveedor(req.body);
     await nuevoProveedor.save();
@@ -51,7 +51,7 @@ const updateProveedor = async (req, res, next) => {
   }
 };
 
-const deleteProveedor = async (req, res) => {
+const deleteProveedor = async (req, res, next) => {
   const { id } = req.params;
 
   try {

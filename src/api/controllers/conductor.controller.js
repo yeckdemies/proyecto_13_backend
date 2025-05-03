@@ -22,7 +22,7 @@ const getConductorById = async (req, res, next) => {
   }
 };
 
-const createConductor = async (req, res) => {
+const createConductor = async (req, res, next) => {
   try {
     const newConductor = new Conductor(req.body);
     const saved = await newConductor.save();
@@ -51,7 +51,7 @@ const updateConductor = async (req, res, next) => {
   }
 };
 
-const deleteConductor = async (req, res) => {
+const deleteConductor = async (req, res, next) => {
   const { id } = req.params;
   const eliminarReservas = req.query.eliminarReservas === 'true';
 
