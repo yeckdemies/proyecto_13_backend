@@ -55,6 +55,10 @@ const createVehiculo = async (req, res) => {
     await nuevoVehiculo.save();
     res.status(201).json(nuevoVehiculo);
   } catch (error) {
+    if (error.code === 11000 && error.keyPattern?.matricula) {
+      return res.status(400).json({ message: 'Ya existe un vehículo con esa matrícula' });
+    }
+
     console.error('Error al crear vehículo:', error);
     res.status(500).json({ message: 'Error interno al crear vehículo' });
   }

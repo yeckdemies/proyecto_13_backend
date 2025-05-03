@@ -22,13 +22,18 @@ const getConductorById = async (req, res, next) => {
   }
 };
 
-const createConductor = async (req, res, next) => {
+const createConductor = async (req, res) => {
   try {
     const newConductor = new Conductor(req.body);
     const saved = await newConductor.save();
     res.status(201).json(saved);
   } catch (error) {
-    res.status(400).json({ message: 'Error al crear conductor', error });
+    if (error.code === 11000 && error.keyPattern?.dni) {
+      return res.status(400).json({ message: 'Ya existe un conductor con ese DNI' });
+    }
+
+    console.error('Error al crear conductor:', error);
+    res.status(500).json({ message: 'Error interno al crear conductor' });
   }
 };
 

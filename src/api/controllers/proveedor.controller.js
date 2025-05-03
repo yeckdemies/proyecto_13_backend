@@ -22,13 +22,18 @@ const getProveedorById = async (req, res, next) => {
   }
 };
 
-const createProveedor = async (req, res, next) => {
+const createProveedor = async (req, res) => {
   try {
-    const newProveedor = new Proveedor(req.body);
-    const saved = await newProveedor.save();
-    res.status(201).json(saved);
+    const nuevoProveedor = new Proveedor(req.body);
+    await nuevoProveedor.save();
+    res.status(201).json(nuevoProveedor);
   } catch (error) {
-    res.status(400).json({ message: 'Error al crear proveedor', error });
+    if (error.code === 11000 && error.keyPattern?.nif) {
+      return res.status(400).json({ message: 'Ya existe un proveedor con ese CIF/NIF' });
+    }
+
+    console.error('Error al crear proveedor:', error);
+    res.status(500).json({ message: 'Error interno al crear proveedor' });
   }
 };
 
