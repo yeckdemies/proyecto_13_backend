@@ -1,4 +1,5 @@
 const Conductor = require('../models/conductor.model');
+const Reserva = require ( '../models/reserva.model');
 
 const getAllConductores = async (req, res, next) => {
   try {
@@ -45,13 +46,28 @@ const updateConductor = async (req, res, next) => {
   }
 };
 
-const deleteConductor = async (req, res, next) => {
+const deleteConductor = async (req, res) => {
+  const { id } = req.params;
+  const eliminarReservas = req.query.eliminarReservas === 'true';
+
   try {
-    const deleted = await Conductor.findByIdAndDelete(req.params.id);
-    if (!deleted) {
-      return res.status(404).json({ message: 'Conductor no encontrado' });
+    const reservas = await Reserva.find({ conductor: id });
+
+    if (reservas.length > 0 && !eliminarReservas) {
+      return res.status(409).json({
+        message: 'Este conductor tiene reservas asociadas.',
+        reservas: reservas.map(r => r._id),
+      });
     }
-    res.status(200).json({ message: 'Conductor eliminado' });
+
+    if (eliminarReservas) {
+      await Reserva.deleteMany({ conductor: id });
+    }
+
+    const deleted = await Conductor.findByIdAndDelete(id);
+    if (!deleted) return res.status(404).json({ message: 'Conductor no encontrado' });
+
+    res.status(200).json({ message: 'Conductor eliminado correctamente' });
   } catch (error) {
     res.status(500).json({ message: 'Error al eliminar conductor', error });
   }

@@ -1,5 +1,6 @@
 const { uploadToCloudinary } = require('../../helpers/uploadToCloudinary');
 const Vehiculo = require('../models/vehiculo.model');
+const Reserva = require('../models/reserva.model');
 
 const getAllVehiculos = async (req, res) => {
   try {
@@ -108,17 +109,30 @@ const updateVehiculo = async (req, res) => {
   }
 };
 
-
 const deleteVehiculo = async (req, res) => {
+  const { id } = req.params;
+  const eliminarReservas = req.query.eliminarReservas === 'true';
+
   try {
-    const deleted = await Vehiculo.findByIdAndDelete(req.params.id);
-    if (!deleted) {
-      return res.status(404).json({ message: 'Vehículo no encontrado para eliminar' });
+    const reservas = await Reserva.find({ vehiculo: id });
+
+    if (reservas.length > 0 && !eliminarReservas) {
+      return res.status(409).json({
+        message: 'Este vehículo tiene reservas asociadas.',
+        reservas: reservas.map(r => r._id),
+      });
     }
+
+    if (eliminarReservas) {
+      await Reserva.deleteMany({ vehiculo: id });
+    }
+
+    const deleted = await Vehiculo.findByIdAndDelete(id);
+    if (!deleted) return res.status(404).json({ message: 'Vehículo no encontrado' });
+
     res.status(200).json({ message: 'Vehículo eliminado correctamente' });
   } catch (error) {
-    console.error('Error al eliminar vehículo:', error);
-    res.status(500).json({ message: 'Error interno al eliminar vehículo' });
+    res.status(500).json({ message: 'Error al eliminar vehículo', error });
   }
 };
 
