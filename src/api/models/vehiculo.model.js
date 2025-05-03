@@ -51,10 +51,6 @@ const vehiculoSchema = new mongoose.Schema({
   proveedor: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'proveedores'
-  },
-  conductor: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'conductores'
   }
 }, {
   collection: 'vehiculos',
