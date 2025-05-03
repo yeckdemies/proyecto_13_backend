@@ -45,12 +45,22 @@ const vehiculoSchema = new mongoose.Schema({
     type: Date,
     required: true
   },
-  costeAlquilerMensual: Number,
-  fechaInicioContratoRenting: Date,
-  fechaFinContratoRenting: Date,
+  costeAlquilerMensual: {
+    type: Number,
+    required: true
+  },
+  fechaInicioContratoRenting: {
+    type: Date,
+    required: true
+  },
+  fechaFinContratoRenting: {
+    type: Date,
+    required: true
+  },
   proveedor: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'proveedores'
+    ref: 'proveedores',
+    required: true
   }
 }, {
   collection: 'vehiculos',

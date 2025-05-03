@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const proveedorSchema = new mongoose.Schema({
   nif: {
     type: String,
+    unique: true,
     required: true
   },
   nombre: {

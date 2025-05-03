@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const conductorSchema = new mongoose.Schema({
   dni: {
     type: String,
+    unique: true,
     required: true
   },
   nombre: { type: String, required: true },
