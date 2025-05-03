@@ -1,4 +1,5 @@
 const Proveedor = require('../models/proveedor.model');
+const Vehiculo = require('../models/vehiculo.model');
 
 const getAllProveedores = async (req, res, next) => {
   try {
@@ -45,13 +46,26 @@ const updateProveedor = async (req, res, next) => {
   }
 };
 
-const deleteProveedor = async (req, res, next) => {
+const deleteProveedor = async (req, res) => {
+  const { id } = req.params;
+
   try {
-    const deleted = await Proveedor.findByIdAndDelete(req.params.id);
-    if (!deleted) {
-      return res.status(404).json({ message: 'Proveedor no encontrado' });
+    const vehiculosAsociados = await Vehiculo.find({ proveedor: id });
+
+    if (vehiculosAsociados.length > 0) {
+      return res.status(409).json({
+        message: 'No se puede eliminar el proveedor porque está asignado a uno o más vehículos.',
+        vehiculos: vehiculosAsociados.map(v => ({
+          id: v._id,
+          matricula: v.matricula
+        })),
+      });
     }
-    res.status(200).json({ message: 'Proveedor eliminado' });
+
+    const deleted = await Proveedor.findByIdAndDelete(id);
+    if (!deleted) return res.status(404).json({ message: 'Proveedor no encontrado' });
+
+    res.status(200).json({ message: 'Proveedor eliminado correctamente' });
   } catch (error) {
     res.status(500).json({ message: 'Error al eliminar proveedor', error });
   }
