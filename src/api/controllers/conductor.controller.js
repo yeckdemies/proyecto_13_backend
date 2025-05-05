@@ -1,3 +1,4 @@
+const mongoose = require('mongoose');
 const Conductor = require('../models/conductor.model');
 const Reserva = require ( '../models/reserva.model');
 
@@ -54,6 +55,10 @@ const updateConductor = async (req, res, next) => {
 const deleteConductor = async (req, res, next) => {
   const { id } = req.params;
   const eliminarReservas = req.query.eliminarReservas === 'true';
+
+  if (!mongoose.Types.ObjectId.isValid(id)) {
+    return res.status(400).json({ message: 'ID no válido' });
+  }
 
   try {
     const reservas = await Reserva.find({ conductor: id });
