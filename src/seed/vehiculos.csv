@@ -1,101 +1,101 @@
-tipoVehiculo;matricula;bastidor;estado;tipoCombustible;permisoCirculacionUrl;ciudad;Marca;Modelo;Anio;Color;fechaVigorItv;costeAlquilerMensual;fechaInicioContratoRenting;fechaFinContratoRenting;proveedor;conductor
-Turismo;0393MJL;3VWRC29M4Y0724979;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-SUV;3316GKM;2FTDF0739X1521830;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
-Furgoneta;1921HFK;9BWGR61J161375158;Activo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2025;Blanco;2025;800;1/1/25;1/1/29;My Renting;
-SUV;8219GNG;2G4WD512172226113;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
-Turismo;2292LGG;2G1WX22K2Y0686394;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-Turismo;6522CDC;1C3KC45K287329937;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-Furgoneta;4374BMJ;1GTEC69U327922455;Taller;Diesel + ADV;;Granada;;;;;2023;;;;;
-Turismo;8757GCB;1GCUGEFX8A1466298;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-SUV;7356BJF;1MELM55S5W6732878;Taller;Diesel + ADV;;Granada;kia;Niro;;;2023;;;;;
-SUV;9307CJL;1FDXW46R692428076;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
-SUV;8196NNF;5TDYK4CC6A4595434;Activo;Diesel + ADV;;Granada;kia;Niro;;;2023;;;;;
-Turismo;6620FBD;2GNALBEC1B4238124;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-Furgoneta;1635NJC;1GCRKSH35B7134377;Activo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2025;Blanco;2025;800;1/1/25;1/1/29;My Renting;
-SUV;2477NDL;1GDZ7WCL1B8535558;Inactivo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
-Turismo;3035HNG;WVWFD91KX92772297;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-Turismo;9543NMM;SHSRE485096574576;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-Turismo;5939JHB;1B7GG46NX38797142;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-SUV;1901FKL;3D7HV13PX97979432;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
-SUV;3616KNL;3GKGC668887625232;Activo;Diesel + ADV;;Granada;kia;Niro;;;2023;;;;;
-SUV;1089GNJ;1GNKR9DD2B7766412;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
-Turismo;1037LDG;JH4DC4359Y4613941;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-Furgoneta;0193DFN;1GNFC230194820819;Inactivo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Blanco;2023;800;;;;
-Furgoneta;7544FGM;2LMDJ6JK3B3778676;Inactivo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Blanco;2023;800;;;;
-Furgoneta;3318HGG;3D7KS26D685464279;Activo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2025;Blanco;2025;800;1/1/25;1/1/29;My Renting;
-SUV;4658DFM;1FTEX3CY9A3382904;Inactivo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
-Turismo;7597JMB;WBAWL1C58A4718482;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-Turismo;7344FLG;1GB2GWDG8A7558528;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-Furgoneta;4267LCF;1LNHM93R097624189;Activo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2025;Blanco;2025;800;1/1/25;1/1/29;My Renting;
-Turismo;9605FDD;1J4FZ78S0W4223634;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-SUV;2381HKG;1GCYKTE22A4731659;Activo;Diesel + ADV;;Granada;kia;Niro;;;;;;;;
-SUV;2289NGD;1GT524HL3B1538338;Activo;Diesel + ADV;;Granada;kia;Niro;;;;;;;;
-SUV;8089CKD;3GNUKKC37A0503275;Activo;Diesel + ADV;;Granada;kia;Niro;;;;;;;;
-Turismo;0802BHM;1G1JH15T828889813;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-Furgoneta;7535HBG;1GCFC29GX24968003;Activo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2025;Blanco;2025;800;1/1/25;1/1/29;My Renting;
-Turismo;0967BHH;5TETX4GN1B5277297;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-SUV;1554MDM;1FTEF14YXT9945383;Activo;Diesel + ADV;;Granada;kia;Niro;;;;;;;;
-SUV;0719GLG;1GNMCBE31A6943432;Activo;Diesel + ADV;;Granada;kia;Niro;;;;;;;;
-Turismo;0870HBG;1GAHG85F127896824;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-SUV;9856MCG;2GCFC19T959186591;Activo;Diesel + ADV;;Granada;kia;Niro;;;;;;;;
-SUV;7505HCF;1B7FL46N832153245;Activo;Diesel + ADV;;Granada;kia;Niro;;;;;;;;
-SUV;8690LMD;5TBBV541492291373;Activo;Diesel + ADV;;Granada;kia;Niro;;;;;;;;
-Turismo;8737KGJ;4A3AK34T996618543;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-Furgoneta;8737KGJ;3D3KR26A581774708;Inactivo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Blanco;2023;800;;;;
-Turismo;0638CML;1GDJP32Z6Y6235973;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-SUV;5522DNL;WVWDM9AJ0B9745718;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
-SUV;7269GGC;1G8ZX577X92883247;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
-SUV;5593GDH;2A4GP64L173578932;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
-Turismo;0993NDL;2G1FA1CD9B7556493;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-Furgoneta;2253BGC;3FTWW31P673882324;Inactivo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Blanco;2023;800;;;;
-Turismo;9148LBD;2GNALPDC2B3202916;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-SUV;0772NLB;JTEZU14R995847704;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
-SUV;4324DHB;2FMDK51C496651212;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
-SUV;8334JGB;1Z3HC28N777964379;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
-Turismo;2274GNM;1GCWGKBA4B5359767;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2023;650;1/1/25;1/1/30;KIA RENTING;
-Furgoneta;7434JCK;1GNSKCD0XB7458659;Activo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Blanco;2025;800;1/1/25;1/1/29;My Renting;
-SUV;1090MFM;1GBWGJBG6B5375231;Activo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;;;;;;;
-Turismo;7379HGC;2B4JB21X923581576;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2023;650;1/1/25;1/1/30;KIA RENTING;
-Furgoneta;9802JKG;1GMDX13E5Y2522421;Inactivo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Blanco;2023;800;;;;
-Turismo;8041JBM;1GTFH15T471331454;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2023;650;1/1/25;1/1/30;KIA RENTING;
-SUV;3705GNC;2D4GP34L433231709;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
-SUV;3950DCF;WAUAA88G8W4556590;Activo;Diesel + ADV;;Granada;kia;Niro;;;2023;;;;;
-SUV;5674HGC;1GCJTCBPXB6431159;Activo;Diesel + ADV;;Granada;kia;Niro;;;2023;;;;;
-Turismo;1073LNH;3GTEK64Z363765890;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2023;650;1/1/25;1/1/30;KIA RENTING;
-Furgoneta;9523GLC;1GTJK39D877869923;Activo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2025;Blanco;2025;800;1/1/25;1/1/29;My Renting;
-Furgoneta;4649BHC;WAUED28D3X1588376;Activo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2025;Blanco;2025;800;1/1/25;1/1/29;My Renting;
-Turismo;3171KLH;1FTBX2B65B5445614;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-SUV;9495FBF;1GKGG252676446925;Activo;Diesel + ADV;;Granada;kia;Niro;;;;;;;;
-SUV;0614NMH;1GTEC64V064919519;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
-Turismo;9505HBK;1GAGG29U039442815;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-SUV;9840BCD;3D3MR46D753682773;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
-SUV;6049MCN;1GNFC16F2X2315844;Activo;Diesel + ADV;;Granada;kia;Niro;2023;;2023;;;;;
-SUV;0701LMM;1GDS8CF40B2138976;Activo;Diesel + ADV;;Granada;kia;Niro;2023;;2023;;;;;
-Turismo;4060FCH;4M2EU38WX69777949;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-Furgoneta;0395MBH;3FTFF28Z8X9977434;Activo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Blanco;2025;800;1/1/25;1/1/29;My Renting;
-Turismo;0951DNG;1G6DN56SX54093718;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-SUV;3543LCD;1GCJTCB93B6533551;Activo;Diesel + ADV;;Granada;kia;Niro;2023;;;;;;;
-SUV;2845JKB;1GKES16P842444106;Activo;Diesel + ADV;;Granada;kia;Niro;2023;;;;;;;
-SUV;0725LBF;1GTP2TBA6B4526306;Activo;Diesel + ADV;;Granada;kia;Niro;;;;;;;;
-Turismo;6733BCD;3GNEC12Z464785456;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-Furgoneta;4989GDF;3VWTM31K693512992;Activo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2025;Blanco;2025;800;1/1/25;1/1/29;My Renting;
-Turismo;7690DLC;2GTHK34G041534244;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-SUV;5520JNL;1GCPCSC38B8373475;Activo;Diesel + ADV;;Granada;kia;Niro;;;;;;;;
-SUV;3101BHL;1D7KA28W538968763;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
-SUV;6566JCK;1FMCU22E1X2538784;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
-Turismo;2537HMB;1GKZ7YBG6B4253612;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-Furgoneta;2089HHM;2G1FA1CV5A7974685;Inactivo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Blanco;2023;800;;;;
-SUV;2287NJB;1GDHP322X93447490;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
-Turismo;9583BGF;1FDKE37S9X4602023;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-Furgoneta;5096HMG;JHMFA1E29B9195908;Inactivo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Blanco;2023;800;;;;
-SUV;5487NLH;2C8FJ253X19448774;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
-SUV;8333CJF;1FMFU165296716828;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
-Turismo;1046KJD;1FTHF20S4Y2236744;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-Furgoneta;3508LKG;1GTU1VB23B5134128;Inactivo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Blanco;2023;800;;;;
-Furgoneta;0047MKG;1FDGS24M1X9261752;Inactivo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Blanco;2023;800;;;;
-Turismo;8841LGL;1D3MU48W131256353;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-SUV;4239MCK;1B8GP15B121836273;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
-SUV;4975CLF;3B3MA38C035497997;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
-Turismo;1578FLG;1J8FT280387239247;Activo;Eléctrico;;Granada;kia;Ceed;2025;Blanco;2029;650;1/1/25;1/1/30;KIA RENTING;
-Furgoneta;9887LHM;WAUXL58DX48638898;Inactivo;Diesel + ADV;;Granada;Volswaguen;Caddy Cargo;2023;Blanco;2023;800;;;;
-SUV;6943NNM;5N1AA08D991299533;Inactivo;Diesel + ADV;;Granada;kia;Niro;2023;Verde;2023;600;1/1/20;1/1/23;KIA RENTING;
+tipoVehiculo;matricula;bastidor;estado;tipoCombustible;permisoCirculacionUrl;Modalidad;marca;modelo;anio;color;fechaVigorItv;costeAlquilerMensual;fechaInicioContratoRenting;fechaFinContratoRenting;proveedor
+Furgoneta;1277JWK;ABCDE1234567;Activo;Diesel;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;Volskwagen;Caddy;2024;Blanco;1/1/29;800;1/1/24;1/1/30;My Renting
+Furgoneta;2145BBV;ABCDE1234568;Activo;Diesel;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;Volskwagen;Caddy;2024;Blanco;1/1/29;800;1/1/24;1/1/30;My Renting
+Furgoneta;1756FML;ABCDE1234569;Activo;Diesel;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;Volskwagen;Caddy;2024;Blanco;1/1/29;800;1/1/24;1/1/30;My Renting
+Furgoneta;8952BBT;ABCDE1234570;Activo;Diesel;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;Volskwagen;Caddy;2024;Blanco;1/1/29;800;1/1/24;1/1/30;My Renting
+Furgoneta;3460BFW;ABCDE1234571;Activo;Diesel;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;Volskwagen;Caddy;2024;Blanco;1/1/29;800;1/1/24;1/1/30;My Renting
+Turismo;0826BBR;ABCDE1234572;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;1746CNS;ABCDE1234573;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;6924 DJB;ABCDE1234574;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+SUV;7388KNB;ABCDE1234575;Activo;Gasolina;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Sportage;2024;Blanco;1/1/29;690;1/1/24;1/1/30;KIA RENTING
+Turismo;260BCML;ABCDE1234576;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;6562QWR;ABCDE1234577;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;4143DYM;ABCDE1234578;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;4198DYM;ABCDE1234579;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Furgoneta;8071BHL;ABCDE1234580;Activo;Diesel;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;Volskwagen;Caddy;2024;Blanco;1/1/29;800;1/1/24;1/1/30;My Renting
+Turismo;5127BDW;ABCDE1234581;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;4809GJR;ABCDE1234582;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Furgoneta;4544JRX;ABCDE1234583;Activo;Diesel;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;Volskwagen;Caddy;2024;Blanco;1/1/29;800;1/1/24;1/1/30;My Renting
+Turismo;2833HVD;ABCDE1234584;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+SUV;3419KXL;ABCDE1234585;Activo;Gasolina;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Sportage;2024;Blanco;1/1/29;690;1/1/24;1/1/30;KIA RENTING
+Turismo;9214BFS;ABCDE1234586;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Furgoneta;6148GXY;ABCDE1234587;Activo;Diesel;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;Volskwagen;Caddy;2024;Blanco;1/1/29;800;1/1/24;1/1/30;My Renting
+Turismo;6158GXY;ABCDE1234588;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;8946CSS;ABCDE1234589;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;0862GCX;ABCDE1234590;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;9901KFG;ABCDE1234591;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;4127KKK;ABCDE1234592;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;1407DRC;ABCDE1234593;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;8307 FBW;ABCDE1234594;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;6559KFH;ABCDE1234595;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;5650LCG;ABCDE1234596;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;3309HTL;ABCDE1234597;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;4134RTT;ABCDE1234598;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;0503KFL;ABCDE1234599;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Furgoneta;6114JFF;ABCDE1234600;Activo;Diesel;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;Volskwagen;Caddy;2024;Blanco;1/1/29;800;1/1/24;1/1/30;My Renting
+SUV;7571LWC;ABCDE1234601;Activo;Gasolina;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Sportage;2024;Blanco;1/1/29;690;1/1/24;1/1/30;KIA RENTING
+Turismo;1368HXV;ABCDE1234602;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Furgoneta;4511JRX;ABCDE1234603;Activo;Diesel;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;Volskwagen;Caddy;2024;Blanco;1/1/29;800;1/1/24;1/1/30;My Renting
+Turismo;1144JRX;ABCDE1234604;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;8176PPP;ABCDE1234605;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;8001CCV;ABCDE1234606;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;3415FRT;ABCDE1234607;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;9411BFY;ABCDE1234608;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;0224GGP;ABCDE1234609;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;4235RYT;ABCDE1234610;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;3793BCV;ABCDE1234611;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;8179PRT;ABCDE1234612;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;8056JLM;ABCDE1234613;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Furgoneta;7822HFR;ABCDE1234614;Activo;Diesel;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;Volskwagen;Caddy;2024;Blanco;1/1/29;800;1/1/24;1/1/30;My Renting
+Turismo;1792RTQ;ABCDE1234615;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;1315KLM;ABCDE1234616;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;7508LTP;ABCDE1234617;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;2681GCW;ABCDE1234618;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;8706KFC;ABCDE1234619;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;5846JVT;ABCDE1234620;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;1484DNX;ABCDE1234621;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;8655BFK;ABCDE1234622;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;4251GHF;ABCDE1234623;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;9263FHY;ABCDE1234624;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;9598BDM;ABCDE1234625;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;4171FGK;ABCDE1234626;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;5787JCZ;ABCDE1234627;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;8159CZW;ABCDE1234628;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;5225LCG;ABCDE1234629;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;7299KNB;ABCDE1234630;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;22376LPL;ABCDE1234631;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;8827FRK;ABCDE1234632;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;6410FGG;ABCDE1234633;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;4977LCG;ABCDE1234634;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;8323FBW;ABCDE1234635;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;9918BHC;ABCDE1234636;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;8324FBW;ABCDE1234637;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;5672LCG;ABCDE1234638;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;1604PLM;ABCDE1234639;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;8572RKJ;ABCDE1234640;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;4370LLL;ABCDE1234641;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;8178PMM;ABCDE1234642;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2024;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Furgoneta;4945KWW;ABCDE1234643;Activo;Diesel;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;Volskwagen;Caddy;2024;Blanco;1/1/29;800;1/1/24;1/1/30;My Renting
+SUV;2324MKF;ABCDE1234644;Activo;Gasolina;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Sportage;2023;Blanco;1/1/29;690;1/1/24;1/1/30;KIA RENTING
+Turismo;4526BHH;ABCDE1234645;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2023;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;7463HJQ;ABCDE1234646;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2023;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;4988MVW;ABCDE1234647;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2023;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;8757MGG;ABCDE1234648;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2023;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;6428FVW;ABCDE1234649;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2023;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;8021HNW;ABCDE1234650;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2023;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;4789QWR;ABCDE1234651;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2023;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;4763FJJ;ABCDE1234652;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2023;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;3245JHT;ABCDE1234653;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2023;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;0702PLK;ABCDE1234654;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2023;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;3930jHJK;ABCDE1234655;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2023;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;3219MNW;ABCDE1234656;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2023;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;3225MNW;ABCDE1234657;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2023;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;2891KXL;ABCDE1234658;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2023;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;3038KCN;ABCDE1234659;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2023;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;5122JKL;ABCDE1234660;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2023;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;3752BWP;ABCDE1234661;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2023;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;0664JDX;ABCDE1234662;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2023;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;0660DNN;ABCDE1234663;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2023;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;8843FNT;ABCDE1234664;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2023;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Turismo;3564JVK;ABCDE1234665;Activo;Eléctrico;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;KIA;Ceed;2023;Blanco;1/1/29;550;1/1/24;1/1/30;KIA RENTING
+Furgoneta;8713FRL;ABCDE1234666;Activo;Diesel;https://res.cloudinary.com/dszffglcl/raw/upload/v1746369767/vehiculos/r4jina6crrehr13qfiuu;Compra;Volskwagen;Caddy;2023;Blanco;1/1/29;800;1/1/24;1/1/30;My Renting
