@@ -15,16 +15,12 @@ Sacar de excel la gestión de la flota para un mayor control de los datos y los 
 - CRUD de Proveedores.
 - CRUD de Usuarios
 
----
-
 ## Beneficios de una implementación de Gestión de FLota
 
 - Unificar en un solo lugar todos los datos relacionados con la flota.
 - Control las reservas de vehículos, evitando solapamientos
 - Filtros sobre todos los registros.
 - Visión global mediante Dashboard.
-
----
 
 ## Carga de datos mediante Excel
 
@@ -46,8 +42,16 @@ npm run seed
 
 ```
 
-## Librerías usadas
----
+## Instalación
+
+```bash
+//Backend
+npm run dev
+
+//Frontend
+npm run dev
+
+```
 
 ## Librerías utilizadas
 
@@ -64,7 +68,7 @@ npm run seed
 - **multer / multer-storage-cloudinary / cloudinary / streamifier**: Gestión de subida de archivos e integración con Cloudinary.
 - **nodemon**: Recarga automática del servidor en desarrollo.
 
-### 💻 Frontend (React + Vite)
+### Frontend (React + Vite)
 
 - **react** / **react-dom**: Librería base para interfaces de usuario.
 - **react-router-dom**: Navegación entre rutas en SPA.
@@ -76,14 +80,7 @@ npm run seed
 - **axios**: Cliente HTTP para conectar con el backend.
 - **recharts**: Gráficas interactivas y responsivas.
 
-> El proyecto usa **Vite** como entorno de desarrollo, y **ESLint** para mantener buenas prácticas de código.
+El proyecto usa **Vite** como entorno de desarrollo, y **ESLint** para mantener buenas prácticas de código.
 
-## Instalación
 
-```bash
-//Backend
-npm run dev
-
-//Frontend
-npm run dev
 
