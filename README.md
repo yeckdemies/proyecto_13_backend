@@ -1,6 +1,6 @@
 # Aplicación para la Gestión de Flota
 
-En mi trabajo me he encontrado con la necesidad de crear una gestión de la flota, al estar en entorno Microsoft ldebo realizarla en Power App, es por esto por lo que he pensado que era una 
+En mi trabajo me he encontrado con la necesidad de crear una gestión de la flota, al estar en entorno Microsoft debo realizarla en Power App, es por esto por lo que he pensado que era una 
 buena oportunidad para implemetar una primera versión usando tecnología javascript y poner en práctica todo lo aprendido. 
 
 La aplicación está dseñada para gestionar vehículos, conductores, reservas y proveedores, también de usuarios para la gestión de toda esta información. 
