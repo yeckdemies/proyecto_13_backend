@@ -7,14 +7,14 @@ const {
   deleteConductor
 } = require('../controllers/conductor.controller');
 const {isAuth} = require('../../middlewares/auth');
-const {isAdmin} = require('../../middlewares/role');
+const { isAdmin } = require('../../middlewares/role');
 
 const conductorRouter = express.Router();
 
 conductorRouter.get('/', isAuth, getAllConductores);
 conductorRouter.get('/:id', isAuth, getConductorById);
-conductorRouter.post('/', [isAuth, isAdmin], createConductor);
-conductorRouter.put('/:id', [isAuth, isAdmin], updateConductor);
+conductorRouter.post('/', isAuth, createConductor);
+conductorRouter.put('/:id', isAuth, updateConductor);
 conductorRouter.delete('/:id', [isAuth, isAdmin], deleteConductor);
 
 module.exports = conductorRouter;
