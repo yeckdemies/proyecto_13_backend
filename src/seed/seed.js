@@ -10,6 +10,24 @@ const Vehiculo = require('../api/models/vehiculo.model');
 const Reserva = require('../api/models/reserva.model');
 const User = require('../api/models/user.model');
 
+const xlsx = require('xlsx');
+
+const extractCSVsFromExcel = (excelFile) => {
+  if (!fs.existsSync(excelFile)) {
+    console.warn(`⚠️ Archivo Excel no encontrado: ${excelFile}`);
+    return;
+  }
+
+  const workbook = xlsx.readFile(excelFile);
+  const sheets = workbook.SheetNames;
+
+  for (const sheetName of sheets) {
+    const data = xlsx.utils.sheet_to_csv(workbook.Sheets[sheetName], { FS: ';' });
+    const csvPath = path.join(__dirname, `${sheetName}.csv`);
+    fs.writeFileSync(csvPath, data, 'utf8');
+  }
+};
+
 const connectDB = async () => {
   try {
     await mongoose.connect(process.env.DB_URL);
@@ -167,13 +185,15 @@ const seedReservas = async () => {
 };
 
 const seed = async () => {
+  extractCSVsFromExcel(path.join(__dirname, 'datos_seed.xlsx'));
+
   await connectDB();
   try {
     await seedProveedores();
     await seedConductores();
     await seedVehiculos();
     await seedReservas();
-    console.log('\nDatos cargados correctamente.');
+    console.log('\NDatos cargados correctamente.');
   } catch (err) {
     console.error('Error al cargar los datos:', err);
   } finally {
