@@ -23,7 +23,7 @@ Sacar de excel la gestión de la flota para un mayor control de los datos y los 
 - Visión global mediante Dashboard.
 
 ## URLs de Despliegue
-- Front: https://proyecto-13-frontend.vercel.app/login
+- Frontend: https://proyecto-13-frontend.vercel.app/login
 - Backend: https://proyecto-13-backend.onrender.com
 
 ## Carga de datos mediante Excel
