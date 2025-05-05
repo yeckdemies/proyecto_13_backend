@@ -82,5 +82,31 @@ npm run dev
 
 El proyecto usa **Vite** como entorno de desarrollo, y **ESLint** para mantener buenas prácticas de código.
 
+## Guía de Usuario
+Los usuarios solo puede gestionarlos un usuario de tipo admin
+Usuario admin existente: 
+  admin
+  admin
+
+Usuario tipo user
+  user
+  user
+
+Un usuario marcado como maestro no puede ser eliminado. Solo está marcado admin desde la propia base de datos. Además por seguridad el usuario no puede visualizarse a sí mismo ni puede eliminarse.
+
+Cuando se crea un nuevo usuario se genera una clave por defecto, **Temp1234!**, la primera vez que acceda el usuario deberá modificarla y volver a iniciar sesión.
+
+El resto de la aplicación está disponible tanto para user como para admin, excepto la eliminación de registros que solo puede realizarla un usuario de tipo admin. 
+
+Creación de Conductores sin que su DNI validando duplicados con DNI
+Creación de Vehículos validando duplicados por matrícula
+Creación de Proveedores validando duplicados por CIF
+Creación de Reservas alertando en el formulario si se solapan los datos.
+Todos los datos son validados en el formulario, teniendo que tener un  mínimo de consistencia.
+
+Con doble click se editan todos los registros. 
+El usuario admin puede seleccionar varios registros a la vez para eliminarlos. 
+
+Dashboard información con la cantidad de datos almacenados y el detalle de la reserva. 
 
 
