@@ -14,7 +14,7 @@ const vehiculoSchema = new mongoose.Schema({
   bastidor: String,
   estado: {
     type: String,
-    enum: ['Activo', 'Inactivo', 'Taller'],
+    enum: ['Activo', 'Taller'],
     default: 'Activo',
     required: true
   },
