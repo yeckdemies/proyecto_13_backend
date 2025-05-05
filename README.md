@@ -4,7 +4,6 @@ En mi trabajo me he encontrado con la necesidad de crear una gestión de la flot
 buena oportunidad para implemetar una primera versión usando tecnología javascript y poner en práctica todo lo aprendido. 
 
 La aplicación está dseñada para gestionar vehículos, conductores, reservas y proveedores, también de usuarios para la gestión de toda esta información. 
----
 
 ## Objetivo del Proyecto
 
