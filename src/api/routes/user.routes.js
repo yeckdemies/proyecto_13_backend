@@ -15,10 +15,11 @@ const userRouter = express.Router();
 
 userRouter.get('/', [isAuth, isAdmin], getAllUser);
 userRouter.get('/me', isAuth, getCurrentUser);
+userRouter.put('/changePassword', isAuth, changePassword);
+userRouter.put('/:id', isAuth, updateUser);
 userRouter.post('/register', [isAuth, isAdmin], registerUser);
 userRouter.post('/login', loginUser);
-userRouter.put('/:id', isAuth, updateUser);
 userRouter.delete('/deleteUser/:id', [isAuth, isAdmin], deleteUser);
-userRouter.put('/changePassword', isAuth, changePassword);
+
 
 module.exports = userRouter;
