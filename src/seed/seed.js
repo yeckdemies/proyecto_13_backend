@@ -14,7 +14,7 @@ const xlsx = require('xlsx');
 
 const extractCSVsFromExcel = (excelFile) => {
   if (!fs.existsSync(excelFile)) {
-    console.warn(`⚠️ Archivo Excel no encontrado: ${excelFile}`);
+    console.warn(`Archivo Excel no encontrado: ${excelFile}`);
     return;
   }
 
@@ -52,22 +52,32 @@ const loadCSV = (fileName) => {
 
 const parseFecha = (valor, campo, identificador) => {
   if (!valor) return null;
+
   const raw = valor.trim();
+
   if (/^\d{2}$/.test(raw)) {
-    const fecha = new Date(`20${raw}-01-01`);
-    return fecha;
+    const yearNum = parseInt(raw, 10);
+    const yyyy = yearNum > 30 ? `19${raw}` : `20${raw}`;
+    return new Date(`${yyyy}-01-01`);
   }
+
   if (/^\d{1,2}\/\d{1,2}\/\d{2,4}$/.test(raw)) {
     const [d, m, y] = raw.split('/');
-    const yyyy = y.length === 2 ? `20${y}` : y;
+    const yearNum = parseInt(y, 10);
+    const yyyy = y.length === 2
+      ? (yearNum > 30 ? `19${y}` : `20${y}`)
+      : y;
     const fecha = new Date(`${yyyy}-${m.padStart(2, '0')}-${d.padStart(2, '0')}`);
     if (!isNaN(fecha)) return fecha;
   }
+
   const date = new Date(raw);
   if (!isNaN(date.getTime())) return date;
+
   console.warn(`Fecha incorrecta (${campo}) [${identificador}]: "${raw}"`);
   return null;
 };
+
 
 const seedProveedores = async () => {
   const data = await loadCSV('proveedores.csv');
