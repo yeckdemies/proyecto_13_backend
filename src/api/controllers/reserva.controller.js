@@ -7,8 +7,8 @@ const { comprobarSolapamientos, validarFechas } = require('../../helpers/reserva
 const getReservas = async (req, res, next) => {
   try {
     const reservas = await Reserva.find().populate('vehiculo', 'matricula')
-    .populate('conductor', 'nombre');
-    res.status(200).json({ success: true, data: reservas });
+    .populate('conductor');
+    res.status(200).json(reservas);
   } catch (error) {
     res.status(500).json({ message: 'Error al obtener reservas', error });
   }
@@ -17,15 +17,14 @@ const getReservas = async (req, res, next) => {
 const getReservaById = async (req, res, next) => {
   try {
     const reserva = await Reserva.findById(req.params.id)
-      .populate('usuario', 'userName email')
-      .populate('vehiculo')
-      .populate('conductor');
+      .populate('vehiculo', 'matricula')
+      .populate('conductor', 'nombre');
 
     if (!reserva) {
       return res.status(404).json({ message: 'Reserva no encontrada' });
     }
 
-    res.status(200).json({ success: true, data: reservas });
+    res.status(200).json(reserva);
   } catch (error) {
     res.status(500).json({ message: 'Error al obtener reserva', error });
   }

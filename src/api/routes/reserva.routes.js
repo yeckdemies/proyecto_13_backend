@@ -17,10 +17,11 @@ const reservaRouter = express.Router();
 reservaRouter.get('/', isAuth, getReservas);
 reservaRouter.get('/:id', isAuth, getReservaById);
 reservaRouter.post('/', isAuth, crearReserva);
+reservaRouter.post('/disponibilidad', isAuth, comprobarDisponibilidad);
 reservaRouter.put('/:id', isAuth, actualizarReserva);
 reservaRouter.patch('/:id/cancelar', isAuth, cancelarReserva);
 reservaRouter.delete('/:id', [isAuth, isAdmin], eliminarReserva);
-reservaRouter.post('/disponibilidad', isAuth, comprobarDisponibilidad);
+
 reservaRouter.patch('/:id/reactivar', isAuth, reactivarReserva);
 
 module.exports = reservaRouter;

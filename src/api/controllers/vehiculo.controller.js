@@ -5,7 +5,7 @@ const Reserva = require('../models/reserva.model');
 const getAllVehiculos = async (req, res, next) => {
   try {
     const vehiculos = await Vehiculo.find()
-      .populate('proveedor');
+      .populate('proveedor', 'nombre');
     res.status(200).json(vehiculos);
   } catch (error) {
     console.error('Error al obtener vehículos:', error);
@@ -16,7 +16,7 @@ const getAllVehiculos = async (req, res, next) => {
 const getVehiculoById = async (req, res, next) => {
   try {
     const vehiculo = await Vehiculo.findById(req.params.id)
-      .populate('proveedor');
+      .populate('proveedor', 'nombre');
     if (!vehiculo) {
       return res.status(404).json({ message: 'Vehículo no encontrado' });
     }
