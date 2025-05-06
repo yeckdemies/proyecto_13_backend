@@ -8,7 +8,7 @@ const getReservas = async (req, res, next) => {
   try {
     const reservas = await Reserva.find().populate('vehiculo', 'matricula')
     .populate('conductor', 'nombre');
-    res.status(200).json(reservas);
+    res.status(200).json({ success: true, data: reservas });
   } catch (error) {
     res.status(500).json({ message: 'Error al obtener reservas', error });
   }
@@ -25,7 +25,7 @@ const getReservaById = async (req, res, next) => {
       return res.status(404).json({ message: 'Reserva no encontrada' });
     }
 
-    res.status(200).json(reserva);
+    res.status(200).json({ success: true, data: reservas });
   } catch (error) {
     res.status(500).json({ message: 'Error al obtener reserva', error });
   }
